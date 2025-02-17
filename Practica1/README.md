@@ -20,10 +20,10 @@ Universidad Industrial de Santander
 Los autores de este informe certifican que el contenido aquí presentado es original y ha sido elaborado de manera independiente. Se han utilizado fuentes externas únicamente como referencia y han sido debidamente citadas.
 
 Asimismo, los autores asumen plena responsabilidad por la información contenida en este documento. 
-
+---
 ### Palabras Clave 
 `GNURADIO` , `Limite de Nyquist` 
----
+
 ### Resumen 
 Acorde a una guia se fue descubrimiento todas las herramientas que posee la aplicacion GNURADIO para poder representar mediante dicho programa el limite de Nyquist
 
