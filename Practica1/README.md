@@ -24,4 +24,4 @@ Asimismo, los autores asumen plena responsabilidad por la información contenida
 ### Resumen
 Acorde a una guia se fue descubrimiento todas las herramientas que posee la aplicacion GNURADIO para poder representar mediante dicho programa el limite de Nyquist
 
-Volver al [INICIO](#Repositorio)
+Volver al [INICIO](#GNURADIO_LABCOMUIS_2025_1_B1B_G1)
