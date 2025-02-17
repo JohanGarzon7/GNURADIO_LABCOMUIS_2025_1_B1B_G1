@@ -30,6 +30,13 @@ Asimismo, los autores asumen plena responsabilidad por la información contenida
 Acorde a una guia se fue descubrimiento todas las herramientas que posee la aplicacion GNURADIO para poder representar mediante dicho programa el limite de Nyquist
 
 ### Introduccion
+`- ¿Qué pasa cuando se alcanza el límite de Nyquist?`
+
+La practiica comienza alrededor de esto por ello debemos definir rapidamente que es este limite, el teorema de Nyquist establece que para representar correctamentr una forma de onda se requiere una frecuencia de muestreo de al menos el doble de la frecuencia de la señal. [1]
+
+
+
+
 
 
 ### Procedimiento
