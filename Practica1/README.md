@@ -21,6 +21,7 @@ Los autores de este informe certifican que el contenido aquí presentado es orig
 
 Asimismo, los autores asumen plena responsabilidad por la información contenida en este documento. 
 ---
+---
 ### Palabras Clave 
 `GNURADIO` , `Limite de Nyquist` 
 
