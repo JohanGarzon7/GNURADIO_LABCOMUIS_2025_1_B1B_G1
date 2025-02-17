@@ -22,8 +22,7 @@ Los autores de este informe certifican que el contenido aquí presentado es orig
 Asimismo, los autores asumen plena responsabilidad por la información contenida en este documento. 
 
 ### Palabras Clave
-"GNURADIO" , "Nyquist"
----
+`GNURADIO` , `Limite de Nyquist` 
 
 ### Resumen
 Acorde a una guia se fue descubrimiento todas las herramientas que posee la aplicacion GNURADIO para poder representar mediante dicho programa el limite de Nyquist
