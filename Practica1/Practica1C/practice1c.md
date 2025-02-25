@@ -48,6 +48,24 @@ Familiarizarse con las especificaciones técnicas de los equipos de laboratorio 
 
 ### **Evidencia**
 - Lista con las 5 especificaciones más relevantes de cada equipo.
+- USRP-2920
+  . Ancho de Banda: 20MHz
+  . Rango de frecuencia: 50MHz a 2.2GHz
+  . Paso de frecuencia: <1KHz
+  . Rango de ganacia: 0 dB a 31 dB
+  . Potenca tipica. 12W a 15W
+- Analizador de Espectros R&S FPC1000
+  . Numero de canales: 1
+  . Ancho de banda: 1Hz
+  . Impedancia de entrada: 50 ohm
+  . Maximo samp_rate: 2.5Gsamples/s
+  . Resolucion de frecuencia: 1 Hz
+- Osciloscopio R&S RTB2004
+  . Impedancia de entreda: 1M ohm
+  . Numero de canales: 4
+  . Resolucion: 14 bit
+  . Rango de frecuencia: 5Khz a 1Ghz
+  . Canales digitales
 - Realice una medición de piso de ruido normalizado.
 
 ---
