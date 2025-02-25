@@ -12,11 +12,12 @@ Johan
 Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
 Universidad Industrial de Santander
 
-## Deckaracion de Originalidad y Responabilidad
+## Declaracion de Originalidad y Responabilidad
 
 Los autores de este informe certifican que el contenido aquí presentado es original y ha sido elaborado de manera independiente. Se han utilizado fuentes externas únicamente como referencia y han sido debidamente citadas.
 
 Asimismo, los autores asumen plena responsabilidad por la información contenida en este documento. 
+
 ---
 
 ---
