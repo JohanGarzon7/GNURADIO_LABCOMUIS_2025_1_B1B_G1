@@ -35,8 +35,10 @@ Familiarizarse con las especificaciones técnicas de los equipos de laboratorio 
 
 ### **Preguntas Orientadoras**
 1. ¿Cuál es el rango de frecuencia del USRP 2920 y cómo se compara con el del analizador de espectros?
+
    El rango de frecuencias es de 50MHz a 2.2GHz.
 2. ¿Qué parámetros del USRP 2920 se deben configurar para transmitir una señal en una frecuencia específica?
+
    Primero se debe conectar con el reloj del PC,Frecuecia central, Amplitud, Anch de banda.
 3. ¿Cómo se configura el osciloscopio para medir la amplitud y la frecuencia de una señal?
    Se configura la escala de division osea los volts por divicion ademas del la
@@ -156,11 +158,14 @@ Transmitir señales usando el USRP 2920 y medir parámetros clave como potencia,
 
 ### **Preguntas Orientadoras**
 1. ¿Cómo se configura el USRP 2920 para transmitir una señal en una frecuencia específica?
+   Para poder transimitir las señales con el USRP 2920 primero debemos crear un flujograma para que se pueda conectar mediante el reloj del computador tambien debe conectrase el lan y el cable tx/rx para transimitir la señal 
 2. ¿Qué parámetros del flujograma afectan la potencia de la señal transmitida?
+   La amplitud el offset el ruido de voltaje y el anco de banda de resolucion.
 3. ¿Cómo se mide el ancho de banda de la señal transmitida en el analizador de espectros?
+   
 4. ¿Cómo se calcula la relación señal a ruido (SNR) a partir de las mediciones de potencia y piso de ruido?
-5. ¿Qué diferencias se observan en las mediciones de potencia cuando se varía la ganancia del USRP?
-6. ¿Es posible medir o estimar la potencia de la señal observada en el osciloscopio? ¿Por qué?
+7. ¿Qué diferencias se observan en las mediciones de potencia cuando se varía la ganancia del USRP?
+8. ¿Es posible medir o estimar la potencia de la señal observada en el osciloscopio? ¿Por qué?
 
 ### **Evidencia**
 - Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuencia que evidencien las principales comparaciones realizadas.
