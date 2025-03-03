@@ -101,11 +101,11 @@ Generar y analizar señales en GNU Radio para entender cómo se comportan difere
 2. ¿Cómo afecta la forma de onda a la distribución de energía (potencia) en el dominio de la frecuencia?
    La distribuccion de potenca si cambiamos la forma de la onda, esta genera mas fuido en el dominio de la frencuencia, en señales como la cuadrada o diente de cierra este ruido es mayor, mientras que en señales como sinusoidales este ruido es minimo.
    
-5. ¿Qué sucede con la señal en el dominio del tiempo y la frecuencia si se modifican los diferentes parámetros de la fuente? ¿Lo observado corresponde a lo esperado teóricamente?
+3. ¿Qué sucede con la señal en el dominio del tiempo y la frecuencia si se modifican los diferentes parámetros de la fuente? ¿Lo observado corresponde a lo esperado teóricamente?
 Si modificamos la amlitud, el offset,etc... de la señal, esta se visualizara en la grafica del dominio del tiempo mientras quye el el dominio de la frecuencia su ganancia se vera alterada.
-6. ¿Cómo se relaciona la amplitud de la señal con la potencia observada en el dominio de la frecuencia?
+4. ¿Cómo se relaciona la amplitud de la señal con la potencia observada en el dominio de la frecuencia?
 Al aumentar la amplitud  en el dominio del tiempo, esta causa que se genere mas ganancia en el espectro de frecuencia.
-7. ¿Qué diferencias se observan entre una señal senoidal y una señal cuadrada en el dominio de la frecuencia?
+5. ¿Qué diferencias se observan entre una señal senoidal y una señal cuadrada en el dominio de la frecuencia?
 La cantidad de ruido que se genera en el espectro de frecuencia, esto debido a cambios  en su amplitud de mantera casi instantanea.
 ### **Evidencias**
 - Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuencia que evidencien cada una de las comparaciones realizadas.
