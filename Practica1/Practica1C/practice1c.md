@@ -162,10 +162,15 @@ Transmitir señales usando el USRP 2920 y medir parámetros clave como potencia,
 2. ¿Qué parámetros del flujograma afectan la potencia de la señal transmitida?
    La amplitud el offset el ruido de voltaje y el anco de banda de resolucion.
 3. ¿Cómo se mide el ancho de banda de la señal transmitida en el analizador de espectros?
-   
+   Para medir el ancho de banda de una señal en el analizador de espectros necesitamos modificar como vemos la informacion en el analizador de espectros por lo que variamos la frecuencia central a una mas adeccuada y ponemos un nivel de referecnia con uno de los marcadores para luego poner otro marcador al otro punto de la señal comn eso medirimaos el ancho de banda.
 4. ¿Cómo se calcula la relación señal a ruido (SNR) a partir de las mediciones de potencia y piso de ruido?
-7. ¿Qué diferencias se observan en las mediciones de potencia cuando se varía la ganancia del USRP?
-8. ¿Es posible medir o estimar la potencia de la señal observada en el osciloscopio? ¿Por qué?
+   SNR = (Potencia de la señal) / (Potencia del ruido)
+   
+5. ¿Qué diferencias se observan en las mediciones de potencia cuando se varía la ganancia del USRP?
+   Cambios en la potencia, mayot amplitud, aumenta el ruido, y una mejor SNR
+6. ¿Es posible medir o estimar la potencia de la señal observada en el osciloscopio? ¿Por qué?
+   Principalmente por que el osciloscopio es echo para medir volatajes no potencia, sin embargo si se puede estimar con la relacion:
+   P = (V^2) / R
 
 ### **Evidencia**
 - Capturas de pantalla de señales generadas en el dominio del tiempo y la frecuencia que evidencien las principales comparaciones realizadas.
@@ -193,9 +198,12 @@ Analizar los resultados obtenidos y sacar conclusiones sobre el comportamiento d
 
 ### **Preguntas Orientadoras**
 1. ¿Qué conclusiones se pueden obtener sobre la relación entre la potencia de la señal y la calidad de la comunicación?
+   Es importante encontrar un equilibrio entre la potencia y otros cosas a tener en cuenta (consumo,interferencia) entre este y mas apartados. 
 2. ¿Cómo afecta el piso de ruido a la capacidad de detectar señales débiles?
+   Afectaria en que si el piso de rudio es demasiado "Abosrveria" la señal y no se podria analizar debidamnete
 3. ¿Qué limitaciones tienen los equipos utilizados en términos de ancho de banda y precisión en las mediciones?
-4. ¿Cómo se pueden mejorar las mediciones de señal en un entorno con alto nivel de ruido?
-5. ¿Qué aplicaciones prácticas tienen las mediciones de potencia y ancho de banda en sistemas de comunicaciones reales?
-6. ¿Cómo se puede medir la respuesta en frecuencia de un canal alámbrico?
-7. ¿Cómo se puede obtener un modelo sencillo de las pérdidas (_pathloss_) en un canal inalámbrico?
+   Dependeindo del aparato al que mencionemos como ejemplo tenemos el  Osciloscopio R&S RTB2004 el cual posee un rango de frecuencia: 5Khz a 1Ghz es en cuanto a limitaciones,con el analalizador de espectros y una señal que se comporte en el rango de frecuenias permitido para este se pude medir la señal con una buena configuracion de este
+5. ¿Cómo se pueden mejorar las mediciones de señal en un entorno con alto nivel de ruido?
+6. ¿Qué aplicaciones prácticas tienen las mediciones de potencia y ancho de banda en sistemas de comunicaciones reales?
+7. ¿Cómo se puede medir la respuesta en frecuencia de un canal alámbrico?
+8. ¿Cómo se puede obtener un modelo sencillo de las pérdidas (_pathloss_) en un canal inalámbrico?
