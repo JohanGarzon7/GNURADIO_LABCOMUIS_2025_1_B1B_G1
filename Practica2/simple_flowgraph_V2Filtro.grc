@@ -72,7 +72,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [520, 148.0]
+    coordinate: [536, 128.0]
     rotation: 0
     state: enabled
 - name: desv_freq
@@ -93,7 +93,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1760, 240.0]
+    coordinate: [1760, 168.0]
     rotation: 0
     state: enabled
 - name: f_max
@@ -114,7 +114,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1616, 144.0]
+    coordinate: [1592, 152.0]
     rotation: 0
     state: enabled
 - name: f_min
@@ -135,7 +135,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1464, 144.0]
+    coordinate: [1424, 152.0]
     rotation: 0
     state: enabled
 - name: fc
@@ -170,7 +170,7 @@ blocks:
     rangeType: float
     start: '0'
     step: '100'
-    stop: 1e4
+    stop: '22050'
     value: 1e3
     widget: counter_slider
   states:
@@ -248,7 +248,7 @@ blocks:
   parameters:
     comment: "Bloque usado para configurar \nvalores de variables que no se\nvan a\
       \ actualizar durante la ejecuci\xF3n"
-    value: '1562500'
+    value: 25e6/32
   states:
     bus_sink: false
     bus_source: false
@@ -284,7 +284,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [72, 148.0]
+    coordinate: [8, 136.0]
     rotation: 0
     state: enabled
 - name: waveform
@@ -314,7 +314,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [280, 148.0]
+    coordinate: [256, 136.0]
     rotation: 0
     state: enabled
 - name: analog_sig_source_x_0
@@ -379,7 +379,7 @@ blocks:
     minoutbuf: '0'
     samp_rate: samp_rate
     type: interp_fir_filter_ccf
-    width: '100'
+    width: '1000'
     win: window.WIN_BLACKMAN
   states:
     bus_sink: false
@@ -424,7 +424,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [392, 488.0]
+    coordinate: [408, 480.0]
     rotation: 0
     state: enabled
 - name: blocks_throttle2_0
@@ -693,7 +693,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [624, 4.0]
+    coordinate: [656, 8.0]
     rotation: 0
     state: enabled
 - name: tab_source
@@ -1040,7 +1040,7 @@ blocks:
     bus_structure: null
     coordinate: [1336, 880.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: virtual_sink_0
   id: virtual_sink
   parameters:
