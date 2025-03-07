@@ -53,11 +53,11 @@ Como fin se busca poder analizar las señales, conocer los aparatos y sus limita
 Para este paso la idea fue buscar los datasheets de los distintos aparatos asi como el rango de funcionamiento de estos por ejemplo saber cual es el rango de frecuencia el que pueden utilizar esto para no sobrepasar dichos limites y hacer mediciones incorrectaas, por ellos una vez analizados los parametros se saco esta lista el cual resume los datos hallados: 
 
 ### USRP-2920 
-. Ancho de Banda: 20MHz 
-. Rango de frecuencia: 50MHz a 2.2GHz 
-. Paso de frecuencia: <1KHz 
-. Rango de ganacia: 0 dB a 31 dB 
-. Potenca tipica. 12W a 15W
+- Ancho de Banda: 20MHz 
+- Rango de frecuencia: 50MHz a 2.2GHz 
+- Paso de frecuencia: <1KHz 
+- Rango de ganacia: 0 dB a 31 dB 
+- Potenca tipica. 12W a 15W
 ### Analizador de Espectros R&S FPC1000 
 . Numero de canales: 1 
 . Ancho de banda: 1Hz 
