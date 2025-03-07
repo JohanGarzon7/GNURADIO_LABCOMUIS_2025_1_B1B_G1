@@ -28,8 +28,8 @@ Asimismo, los autores asumen plena responsabilidad por la información contenida
 `URRP 2920`.
 
 # Resumen 
-Reconocer y entender los conceptos basicos del los sitemas de comunicacion asi como los parametros y equipos que se utilizan en esta, haciendo uso de los conocimientos adquiridos previamente en la clase teorica impartido por el profesor.
-Se hace uso de equipos de laboratorio como el dispositivo de radio de URRP 2920
+Reconocer y entender los conceptos basicos del los sitemas de comunicacion asi como los parametros y equipos que se utilizan en esta, haciendo uso de los conocimientos adquiridos previamente en la clase teorica impartido por el profesor.  
+Se hace uso de equipos de laboratorio como el dispositivo de radio de URRP 2920 para amplificar señales, osciloscopio para medir amplitud y periodo, y por ultimo el analizador de espectro utilizado para medir la potencia de la señales.
 
 # Objetivo General
 
