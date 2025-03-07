@@ -88,5 +88,10 @@ Nos quedara algo similar a lo anterior si se desea ver mas imagenes con variacio
 Evidencias [Ir](#Evidencias)()
 
 ### Conclusiones
+## Analisis de resultados
+Para la transmision de y medicion de Señales haciendo uso del USRP 2920, como primer paso se debe configurar el dispositivo, primero debemos crear un flujograma para que se pueda conectar mediante el reloj del computador, también debe conectar el lan y el cable tx/rx para transimitir la señal.  
+El flujograma posee algunos parametro sque pueden afectr la potencia de la señale transmitida tales  como la amplitud, el ofset, el ruido de voltaje y el ancho de banda de resolucion. Es te ultimo se puede medir directamente desde el analizador de espectros, para esto se debe modificar como se ve la informacion en el analizador de espectros por lo que se debe varias la frecuencia central a una mas adecuada y poner un nivel de referencia con uno de los marcadores para luego poner otro marcador al otro punto de la señal.  
+###Ejemplo:
 
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki.gnuradio.org%2Findex.php%2FYour_First_Flowgraph&psig=AOvVaw1rk8xbhVwPdxUWN37AKow7&ust=1741402437605000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPC9rOD79osDFQAAAAAdAAAAABAE">
 Volver al [INICIO](#GNURADIO_LABCOMUIS_2025_1_B1B_G1)
