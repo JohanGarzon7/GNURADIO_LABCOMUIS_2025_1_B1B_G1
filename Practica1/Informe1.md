@@ -80,7 +80,7 @@ Eh identificamos los bloques necesarios para el funcionamiento de nuestro progra
 <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/Evidencias/WhatsApp%20Image%202025-03-06%20at%209.39.11%20PM.jpeg">  
 Una vez teniendo en cuenta cuales son nuetros bloques principales ejecutaremos nuestro flujograma para que nos quede algo asi:
 
-<img src="">
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/Evidencias/Captura%20desde%202025-03-06%2021-44-37.png">
 
 
 
