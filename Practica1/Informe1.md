@@ -70,6 +70,12 @@ Para este paso la idea fue buscar los datasheets de los distintos aparatos asi c
 - Rango de frecuencia: 5Khz a 1Ghz 
 - Canales digitales
 
+Otros cosas relevantes son las configuraciones que se les deben a hacer a dichos aparatos, para configurar el osciloscopio para medir la amplitud y la frecuencia de una señal a este se le configura la escala de division osea los volts por divicion ademas del la posicion horizontal tambien es importante para un buena medicion, se puede agregar de igual manera cualquier medida que se necesite de la señal el periodo la frecuencia etc..
+
+Entre medir una señal en el dominio del tiempo y en el dominio de la frecuecnia ay ciertas diferencias entre ellas que con el osciloscopio en el dominio de tiempo se puede calcular la amplitud de la señal y en el analizador de espectros la potencia y ancho de banda.  
+
+Se mide con el analizador de espectros mas especificamente con el RBW aumentar o disminuir el span requiere de mas o menos costo computacional ya que puede llegra a ser medida la señal de una manera mas precisa.
+
 ## Simulacion de Señales en GNU Radio
 
 En este aparto veremos como se comportavan la señales con diferentes tipos de forma de onda y como varian en tiempo y en frecuencia.  
