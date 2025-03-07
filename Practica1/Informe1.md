@@ -26,7 +26,9 @@ Asimismo, los autores asumen plena responsabilidad por la información contenida
 #Palabras Clave 
 `GNURADIO` ,`Osciloscopio`,`Analazidor de espectros`, `Frecuencia`,
 `URRP 2920`.
-
+USRP-2920 . Ancho de Banda: 20MHz . Rango de frecuencia: 50MHz a 2.2GHz . Paso de frecuencia: <1KHz . Rango de ganacia: 0 dB a 31 dB . Potenca tipica. 12W a 15W
+Analizador de Espectros R&S FPC1000 . Numero de canales: 1 . Ancho de banda: 1Hz . Impedancia de entrada: 50 ohm . Maximo samp_rate: 2.5Gsamples/s . Resolucion de frecuencia: 1 Hz
+Osciloscopio R&S RTB2004 . Impedancia de entreda: 1M ohm . Numero de canales: 4 . Resolucion: 14 bit . Rango de frecuencia: 5Khz a 1Ghz . Canales digitales
 # Resumen 
 Reconocer y entender los conceptos basicos del los sitemas de comunicacion asi como los parametros y equipos que se utilizan en esta
 
@@ -46,7 +48,7 @@ Como fin se busca poder analizar las señales, conocer los aparatos y sus limita
 
 # Procedimiento
 
-##Reconocimiento de los equipos:
+## Reconocimiento de los equipos:
 
 Para este paso la idea fue buscar los datasheets de los distintos aparatos asi como el rango de funcionamiento de estos por ejemplo saber cual es el rango de frecuencia el que pueden utilizar esto para no sobrepasar dichos limites y hacer mediciones incorrectaas, por ellos una vez analizados los parametros se saco esta lista el cual resume los datos hallados: 
 
