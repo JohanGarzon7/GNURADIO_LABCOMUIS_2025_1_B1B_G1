@@ -101,6 +101,9 @@ Ahora si se modifican distintos parametros como la amlitud, el offset,etc... de 
 
 Al aumentar la amplitud en el dominio del tiempo, esta causa que se genere mas ganancia en el espectro de frecuencia.
 
+## Transmisión y Medición de Señales con el USRP 2920
+
+Para este apartado transmitiremos señales usando el USRP 2920 y medimos parámetros clave como potencia, ancho de banda, piso de ruido y relación señal a ruido (SNR).
 
 ### Conclusiones
 ## Analisis de resultados
