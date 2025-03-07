@@ -23,7 +23,7 @@ Asimismo, los autores asumen plena responsabilidad por la información contenida
 ---
 
 ---
-#Palabras Clave 
+# Palabras Clave 
 `GNURADIO` ,`Osciloscopio`,`Analazidor de espectros`, `Frecuencia`,
 `URRP 2920`.
 
