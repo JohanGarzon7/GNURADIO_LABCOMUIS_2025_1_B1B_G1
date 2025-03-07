@@ -87,6 +87,15 @@ Nos quedara algo similar a lo anterior si se desea ver mas imagenes con variacio
 
 [Ir a las evidencias](/Practica1/Practica1C/Evidencias)
 
+Ahora con esto podemos analizar y reponder cual es la diferencia entre una una fuente de tipo flotante y una de tipo complejo y esa es s que se genera una señal sinosoidal real mientras que en el tipo complejo se genera una señal real e imaginaria una desfada 90 grados de la otrra en banda base lo cual vendria siendo una señal exponecial compleja.
+
+Como bien se vio la forma de onda afecta a la distribuccionde energia a que se debe esto esta genera mas ruido en el dominio de la frencuencia, en señales como la cuadrada o diente de cierra este ruido es mayor, mientras que en señales como sinusoidales este ruido es minimo.  
+
+Ahora si se modifican distintos parametros como la amlitud, el offset,etc... de la señal, esta se visualizara en la grafica del dominio del tiempo mientras quye el el dominio de la frecuencia su ganancia se vera alterada.  
+
+Al aumentar la amplitud en el dominio del tiempo, esta causa que se genere mas ganancia en el espectro de frecuencia.
+
+
 ### Conclusiones
 ## Analisis de resultados
 Para la transmision de y medicion de Señales haciendo uso del USRP 2920, como primer paso se debe configurar el dispositivo, primero debemos crear un flujograma para que se pueda conectar mediante el reloj del computador, también debe conectar el lan y el cable tx/rx para transimitir la señal.  
