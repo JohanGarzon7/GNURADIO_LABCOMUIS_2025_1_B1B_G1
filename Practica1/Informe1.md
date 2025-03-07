@@ -85,7 +85,7 @@ Ahora pasaremos ah analizar las señales para ello modificaremos el tipo de onda
 <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/Evidencias/Captura%20desde%202025-02-25%2015-58-10.png">  
 Nos quedara algo similar a lo anterior si se desea ver mas imagenes con variaciones con distintos parametro debe acceder a lo siguiente: 
 
-Evidencias [Ir](#Evidencias)()
+Evidencias [Ir a las evidencias](/Evidencias)
 
 ### Conclusiones
 ## Analisis de resultados
