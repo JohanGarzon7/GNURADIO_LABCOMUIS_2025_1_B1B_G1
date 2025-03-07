@@ -82,7 +82,9 @@ Una vez teniendo en cuenta cuales son nuetros bloques principales ejecutaremos n
 
 <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/Evidencias/Captura%20desde%202025-03-06%2021-44-37.png">  
 Ahora pasaremos ah analizar las señales para ello modificaremos el tipo de onda la forma de esta la frecuencia y faase de la señal.  
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/Evidencias/Captura%20desde%202025-02-25%2015-58-10.png">
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/Evidencias/Captura%20desde%202025-02-25%2015-58-10.png">  
+Nos quedara algo similar a lo anterior si se desea ver mas imagenes con variaciones con distintos parametro debe acceder a lo siguiente: 
+Evidencias [`IR`](https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/tree/main/Practica1/Practica1C/Evidencias).
 
 ### Conclusiones
 
