@@ -6,8 +6,8 @@
 
 ### Integrantes
 
-Daniel Leonardo Gonzalez Gamba - 2215727
-Johan
+- Daniel Leonardo Gonzalez Gamba - 2215727
+- Johan
 
 Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
 Universidad Industrial de Santander
