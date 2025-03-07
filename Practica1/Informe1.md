@@ -7,7 +7,7 @@
 ### Integrantes
 
 - Daniel Leonardo Gonzalez Gamba - 2215727
-- Johan
+- Johan Esneider Garzon Espejo -2215588
 
 Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
 Universidad Industrial de Santander
