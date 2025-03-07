@@ -74,7 +74,8 @@ Para este paso la idea fue buscar los datasheets de los distintos aparatos asi c
 
 En este aparto veremos como se comportavan la señales con diferentes tipos de forma de onda y como varian en tiempo y en frecuencia.  
 
-Para simular esto utilizamos el siguiente flujograma de GNURADIO [`simple_flowgraph.grc`](https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/simple_flowgraph.grc).
+Para simular esto utilizamos el siguiente flujograma de GNURADIO [`simple_flowgraph.grc`](https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/simple_flowgraph.grc).  
+Eh identificamos los bloques necesarios para el funcionamiento de nuestro programa
 
 
 
