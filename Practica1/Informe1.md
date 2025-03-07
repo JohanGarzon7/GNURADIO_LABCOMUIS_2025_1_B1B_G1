@@ -2,8 +2,7 @@
 
 ## Universidad Industrial de Santander
 
-# Practica 1A
-
+# Practica 1
 
 ### Integrantes
 
@@ -13,8 +12,9 @@ Johan
 Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
 Universidad Industrial de Santander
 
-### Fecha
-11 de febrero de 2025
+### Fecha de entrega
+
+7 de Marzo de 2025
 
 ## Declaración de Originalidad y Responsabilidad
 Los autores de este informe certifican que el contenido aquí presentado es original y ha sido elaborado de manera independiente. Se han utilizado fuentes externas únicamente como referencia y han sido debidamente citadas.
@@ -24,11 +24,14 @@ Asimismo, los autores asumen plena responsabilidad por la información contenida
 
 ---
 ### Palabras Clave 
-`GNURADIO` , `Limite de Nyquist` 
+`GNURADIO` , `Limite de Nyquist`, `Osciloscopio`,`Analazidor de espectros`, `Frecuencia`
 
 ### Resumen 
 Acorde a una guia la mision fue para conocer todas las herramientas que posee la aplicacion GNURADIO para poder representar mediante dicho programa el limite de Nyquist y que me represetna.
 
+### Objetivo General
+
+Familiarizarse con el uso de herramientas de software definido por radio (SDR) como GNU Radio, junto con equipos de medición como el USRP 2920, el osciloscopio R&S RTB2004 y el analizador de espectros R&S FPC1000. 
 ### Introduccion
 `- ¿Qué pasa cuando se alcanza el límite de Nyquist?`
 
