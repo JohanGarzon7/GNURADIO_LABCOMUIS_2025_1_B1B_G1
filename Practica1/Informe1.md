@@ -105,7 +105,6 @@ Al aumentar la amplitud en el dominio del tiempo, esta causa que se genere mas g
 
 Para este apartado transmitiremos señales usando el USRP 2920 y medimos parámetros clave como potencia, ancho de banda, piso de ruido y relación señal a ruido (SNR).
 
-### Conclusiones
 ## Analisis de resultados
 ### Actividad 3: Transmisión y Medición de Señales con el USRP 2920
 Para la transmision de y medicion de Señales haciendo uso del USRP 2920, como primer paso se debe configurar el dispositivo, primero debemos crear un flujograma para que se pueda conectar mediante el reloj del computador, también debe conectar el lan y el cable tx/rx para transimitir la señal.  
@@ -122,7 +121,7 @@ Las concluisones que se pueden observar sobre la relacion entre la potencia de l
 Las limitaciones que presentan algunos equipos para realizar las mediciones de ancho de banda y precision en las mediciones es dependiendo del dispositivo al que mencionemos como ejemplo tenemos el Osciloscopio R&S RTB2004 el cual posee un rango de frecuencia: 5Khz a 1Ghz es en cuanto a limitaciones, con el analizador de espectros y una señal que se comporta en el rango de frecuencias permitido para este se pude medir la señal con una buena configuración de este.
 Para mejorar las mediciones de la señal en un entorno con alto nivel de ruido se puede optar por estrategias como relizar filtros pasabajas, pasa altas que pueden ayudar a eliminar e ruido no deseado, aumentar la potencia de transmicion de la señal ya que generaria una mayor diferencia entre la señal que se desea trasnmitir y el nivel de ruido.  
 Algunas de las aplicaciones practicas del uso de mediciones de potencia y ancho de banda es el diseño de sistemas de radio y televicion ya que estos permiten asegurar que la transmision cumpla con los requisitos para una buena calidad.  
-#Conclusiones:
+# Conclusiones:
 ## 1.)
 Se logró obtener un mejor manejo y uso de los equipos de laboratorio adaptandoce a los nuevos equipos con mucha mas facilidad a lo largo de las practicas que se requerian en cada una de las diferentes actividades.
 ## 2.)
