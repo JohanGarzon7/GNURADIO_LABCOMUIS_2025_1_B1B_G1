@@ -127,6 +127,6 @@ Se logró obtener un mejor manejo y uso de los equipos de laboratorio adaptandoc
 ## 2.)
 A lo largo de la práctica, se observaron diversos fenómenos estudiados previamente en el curso teórico, lo que facilitó su comprensión y permitió identificar factores que influyen en la transmisión de señales de información. Además, mediante el uso del programa GNU Radio, se generaron distintos tipos de señales, ajustando diversos parámetros para modificar sus características.
 ## 3.)
-El uso de las comunicaciones en el mundo moderno parten de los conocimientos que se obtienen a lo largo del curso de comunicaciones, esto se debe a que se profundiza y se pone en practica lo aprendido en el curso teorio facilitando mas aun el analisis de diferentes sistemas de comunicacion.
-<img src="">
+El uso de las comunicaciones en el mundo moderno parten de los conocimientos que se obtienen a lo largo del curso de comunicaciones, esto se debe a que se profundiza y se pone en practica lo aprendido en el curso teorio facilitando mas aun el analisis de diferentes sistemas de comunicacion.  
+
 Volver al [INICIO](#GNURADIO_LABCOMUIS_2025_1_B1B_G1)
