@@ -111,9 +111,8 @@ Para este apartado transmitiremos señales usando el USRP 2920 y medimos paráme
 Para la transmision de y medicion de Señales haciendo uso del USRP 2920, como primer paso se debe configurar el dispositivo, primero debemos crear un flujograma para que se pueda conectar mediante el reloj del computador, también debe conectar el lan y el cable tx/rx para transimitir la señal.  
 El flujograma posee algunos parametro sque pueden afectr la potencia de la señale transmitida tales  como la amplitud, el ofset, el ruido de voltaje y el ancho de banda de resolucion. Es te ultimo se puede medir directamente desde el analizador de espectros, para esto se debe modificar como se ve la informacion en el analizador de espectros por lo que se debe varias la frecuencia central a una mas adecuada y poner un nivel de referencia con uno de los marcadores para luego poner otro marcador al otro punto de la señal.  
 para calcular la SNR de la señal se hace uso de la ecuacion  
-$$
 SNR = 10 \log \left(\frac{\text{Potencia de la señal}}{\text{Potencia de ruido}}\right)
-$$
+
 
 Al varias la ganancia del USRP se observan cambios en la potencia, una mayor amplitud, puede aumentar el ruido y mejorar el SNR.  
 Respondiendo a la pregunta se "¿Es posible medir o estimar la potencia de la señal observada en el osciloscopio? ¿Por qué?" la respuesta es principalmente por que el osciloscopio es echo para medir volatajes sin potencia, sin embargo si se puede estimar con la relación:  
