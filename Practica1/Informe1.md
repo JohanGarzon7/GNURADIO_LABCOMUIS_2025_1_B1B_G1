@@ -1,4 +1,4 @@
-# Laboratorio de Comunicaiones
+# Laboratorio de Comunicaiones 
 
 ## Universidad Industrial de Santander
 
