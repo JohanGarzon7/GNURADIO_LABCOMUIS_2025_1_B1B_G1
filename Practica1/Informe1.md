@@ -120,6 +120,14 @@ $\ P = \frac{V^2}{R} \$
 ### Actividad 4
 Las concluisones que se pueden observar sobre la relacion entre la potencia de la señal y la calidad de la comunicacion esque es importante encontrar un equilibrio entre la potencia y otras cosas a tener en cuenta (consumo,interferencia) entre este y más apartados. El piso de ruido afecta la capacidad de detectar sanales debiles dado que si el piso de ruido es demaciado "Abosrveria" la señal y no se podría analizar debidamente.  
 Las limitaciones que presentan algunos equipos para realizar las mediciones de ancho de banda y precision en las mediciones es dependiendo del dispositivo al que mencionemos como ejemplo tenemos el Osciloscopio R&S RTB2004 el cual posee un rango de frecuencia: 5Khz a 1Ghz es en cuanto a limitaciones, con el analizador de espectros y una señal que se comporta en el rango de frecuencias permitido para este se pude medir la señal con una buena configuración de este.
-
+Para mejorar las mediciones de la señal en un entorno con alto nivel de ruido se puede optar por estrategias como relizar filtros pasabajas, pasa altas que pueden ayudar a eliminar e ruido no deseado, aumentar la potencia de transmicion de la señal ya que generaria una mayor diferencia entre la señal que se desea trasnmitir y el nivel de ruido.  
+Algunas de las aplicaciones practicas del uso de mediciones de potencia y ancho de banda es el diseño de sistemas de radio y televicion ya que estos permiten asegurar que la transmision cumpla con los requisitos para una buena calidad.  
+#Conclusiones:
+## 1.)
+Se logró obtener un mejor manejo y uso de los equipos de laboratorio adaptandoce a los nuevos equipos con mucha mas facilidad a lo largo de las practicas que se requerian en cada una de las diferentes actividades.
+## 2.)
+A lo largo de la práctica, se observaron diversos fenómenos estudiados previamente en el curso teórico, lo que facilitó su comprensión y permitió identificar factores que influyen en la transmisión de señales de información. Además, mediante el uso del programa GNU Radio, se generaron distintos tipos de señales, ajustando diversos parámetros para modificar sus características.
+## 3.)
+El uso de las comunicaciones en el mundo moderno parten de los conocimientos que se obtienen a lo largo del curso de comunicaciones, esto se debe a que se profundiza y se pone en practica lo aprendido en el curso teorio facilitando mas aun el analisis de diferentes sistemas de comunicacion.
 <img src="">
 Volver al [INICIO](#GNURADIO_LABCOMUIS_2025_1_B1B_G1)
