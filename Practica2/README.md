@@ -28,7 +28,7 @@ Asimismo, los autores asumen plena responsabilidad por la información contenida
 Durante la práctica, los estudiantes tendrán la oportunidad de observar cómo estos modelos afectan la calidad de la señal transmitida y como pueden mitigar sus efectos. Además, se evaluarán aspectos clave como la relación señal-ruido y la eficiencia en la transmisión de datos.
 Este enfoque práctico nos permitirá no solo verificar las teorías aprendidas en clase, sino también desarrollar habilidades prácticas en el manejo de los equipos de laboratorio como con equipos de medición como el USRP 2920, el osciloscopio R&S RTB2004 y el analizador de espectros R&S FPC1000.
 
-## Materiales y Equipos
+# Materiales y Equipos
 USRP  2920:  Radio definido por software.
 Osciloscopio 	R&S RTB2004:  Para visualización de señales en el dominio del tiempo y  frecuencia.
 Analizador 	de Espectros R&S FPC1000: Para mediciones en el dominio de la frecuencia.
