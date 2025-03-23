@@ -1,4 +1,23 @@
-Práctica 2A. Modelo de canal
+# Laboratorio de Comunicaciones
+
+## Universidad Industrial de Santander
+
+- Daniel Leonardo Gonzalez Gamba - 2215727
+- Johan Esneider Garzon Espejo -2215588
+
+Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
+Universidad Industrial de Santander
+
+## Declaración de Originalidad y Responsabilidad
+Los autores de este informe certifican que el contenido aquí presentado es original y ha sido elaborado de manera independiente. Se han utilizado fuentes externas únicamente como referencia y han sido debidamente citadas.
+
+Asimismo, los autores asumen plena responsabilidad por la información contenida en este documento. 
+---
+
+
+---
+
+## Práctica 2A. Modelo de canal
 Objetivo General
 Durante la práctica, los estudiantes tendrán la oportunidad de observar cómo estos modelos afectan la calidad de la señal transmitida y como pueden mitigar sus efectos. Además, se evaluarán aspectos clave como la relación señal-ruido y la eficiencia en la transmisión de datos.
 Este enfoque práctico nos permitirá no solo verificar las teorías aprendidas en clase, sino también desarrollar habilidades prácticas en el manejo de los equipos de laboratorio como con equipos de medición como el USRP 2920, el osciloscopio R&S RTB2004 y el analizador de espectros R&S FPC1000.
