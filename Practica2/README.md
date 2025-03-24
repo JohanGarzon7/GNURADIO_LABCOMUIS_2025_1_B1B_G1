@@ -37,12 +37,11 @@ Cables y conectores: Para interconexión de equipos.
 
 
 ## Actividad 1: Actividades de simulación de canal en GNU Radio
-### Objetivo Familiarizarse con los fenómenos de canal en un ambiente simulado.
-Procedimiento
-Revisar Manuales y Verificar Equipos:
-Cargue el flujograma Enlace Descarga
-Configure siempre la frecuencia de muestreo (samp_rate) en 25e6/2n  Hz. donde n es un número entero mayor a 2. 	
-Preguntas Orientadoras
+### Objetivo: Familiarizarse con los fenómenos de canal en un ambiente simulado.
+### Procedimiento
+- Revisar Manuales y Verificar Equipos:
+- Cargue el flujograma Enlace Descarga
+- Configure siempre la frecuencia de muestreo (samp_rate) en 25e6/2n  Hz. donde n es un número entero mayor a 2. 	
 ¿Cuál es el efecto de filtrar las frecuencias altas de una señal periódica?
 ¿Qué sucede al filtrar muy cerca de la frecuencia fundamental de la señal?
 ¿Cuál es el efecto de filtrar las frecuencias bajas de una señal periódica?
@@ -52,15 +51,14 @@ Observe cómo se degrada la señal al aumentar los niveles de ruido. Analice su 
 ¿Cómo se puede mejorar la relación señal a ruido en una señal? Demuestre con un ejemplo gráfico y determine el umbral de ruido con el cual es posible recuperar cada forma de onda utilizando únicamente filtrado.	
 Evidencia
 	
-Actividad 2: fenómenos de canal en el osciloscopio
-_________________________________________________________
-Objetivo
-Familiarizarse con los fenómenos de canal en un ambiente simulado.
-Procedimiento
-Configurar el USRP 2920:
-Configure el flujograma (Enlace Descarga) en GNU Radio para transmitir una señal a través del USRP. Habilite o deshabilite los bloques correspondientes (Channel Model, Throttle, UHD: USRP Sink, Virtual Sink). Para esto seleccione el bloque deseado y presione E (enable) o D (disable), respectivamente.
-Configure siempre la frecuencia de muestreo (samp_rate) en 25e6/2n  Hz. donde n es un número entero mayor a 2. 
-Encienda, conecte y configure el osciloscopio con el USRP 2920 con los parámetros necesarios para evidenciar los fenómenos de canal.
+## Actividad 2: fenómenos de canal en el osciloscopio
+
+### Objetivo Familiarizarse con los fenómenos de canal en un ambiente simulado.
+### Procedimiento
+- Configurar el USRP 2920:
+- Configure el flujograma (Enlace Descarga) en GNU Radio para transmitir una señal a través del USRP. Habilite o deshabilite los bloques correspondientes (Channel Model, Throttle, UHD: USRP Sink, Virtual Sink). Para esto seleccione el bloque deseado y presione E (enable) o D (disable), respectivamente.
+- Configure siempre la frecuencia de muestreo (samp_rate) en 25e6/2n  Hz. donde n es un número entero mayor a 2. 
+- Encienda, conecte y configure el osciloscopio con el USRP 2920 con los parámetros necesarios para evidenciar los fenómenos de canal.
 Preguntas Orientadoras
 ¿Cuál es el efecto del ruido sobre la amplitud de las señales medidas en el osciloscopio? Conservan las mismas relaciones que se evidencian en la simulación. 
 ¿la relación señal a ruido creada intencionalmente en el computador se amplifica o se reduce en la señal observada en el osciloscopio?
