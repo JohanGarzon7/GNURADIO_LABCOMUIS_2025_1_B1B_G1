@@ -43,13 +43,19 @@ Cables y conectores: Para interconexión de equipos.
 - Cargue el flujograma Enlace Descarga
 - Configure siempre la frecuencia de muestreo (samp_rate) en 25e6/2n  Hz. donde n es un número entero mayor a 2.
   
-¿Cuál es el efecto de filtrar las frecuencias altas de una señal periódica?
-¿Qué sucede al filtrar muy cerca de la frecuencia fundamental de la señal?
-¿Cuál es el efecto de filtrar las frecuencias bajas de una señal periódica?
+¿Cuál es el efecto de filtrar las frecuencias altas de una señal periódica?  
+
+¿Qué sucede al filtrar muy cerca de la frecuencia fundamental de la señal?  
+
+¿Cuál es el efecto de filtrar las frecuencias bajas de una señal periódica?  
+
 ¿Qué ocurre al eliminar los primeros armónicos de la señal?
-Explique el fenómeno de la desviación de frecuencia en una señal. Puede hacerlo con al menos dos casos.
-Observe cómo se degrada la señal al aumentar los niveles de ruido. Analice su comportamiento en el dominio del tiempo y la frecuencia para al menos dos formas de onda distintas.
-¿Cómo se puede mejorar la relación señal a ruido en una señal? Demuestre con un ejemplo gráfico y determine el umbral de ruido con el cual es posible recuperar cada forma de onda utilizando únicamente filtrado.	
+Explique el fenómeno de la desviación de frecuencia en una señal. Puede hacerlo con al menos dos casos.  
+
+Observe cómo se degrada la señal al aumentar los niveles de ruido. Analice su comportamiento en el dominio del tiempo y la frecuencia para al menos dos formas de onda distintas.  
+
+¿Cómo se puede mejorar la relación señal a ruido en una señal? Demuestre con un ejemplo gráfico y determine el umbral de ruido con el cual es posible recuperar cada forma de onda utilizando únicamente filtrado.	  
+
 Evidencia
 	
 ## Actividad 2: fenómenos de canal en el osciloscopio
