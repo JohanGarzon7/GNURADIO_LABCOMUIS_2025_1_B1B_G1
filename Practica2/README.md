@@ -99,7 +99,7 @@ Este se evidencia con por asi decirlo variaciones en la forma de onda lo que sig
 
 ¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? 
 
-Afecta principlamente en la disminucion de la potencia entregada en el receptor dado que la atenuacion va por distancia recorrida por lo que al tener una mayor distancia que recorrer se recibe menos potencia. 
+Afecta en la por asi decirlo en la fomra en la que se muetra la señal
 
 ¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?
 Evidencia
@@ -123,11 +123,13 @@ adjunte la evidencia de la medición de la relación señal a ruido de dos forma
 
 ¿Cómo se evidencia el fenómeno de desviación de frecuencia en el analizador de espectro? evidencie al menos con dos formas de onda.    
 
-Determine la afectación de un medio de transmisión coaxial (use los cables largos) sobre una señal periódica operando a las capacidades máximas de muestreo del USRP. 
-NOTA: La frecuencia de transmisión no debe superar los 1000 MHz para ser observada en el analizador. Para el experimento considere las relaciones de muestreo correspondientes,
-Usando cables coaxiales de diferentes longitudes ¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida?   
+Afecta principlamente en la disminucion de la potencia entregada en el receptor dado que la atenuacion va por distancia recorrida por lo que al tener una mayor distancia que recorrer se recibe menos potencia. 
 
-¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida?   
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Captura%20desde%202025-03-23%2021-52-59.png">
+
+¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida?
+
+
 
 ¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?
 Evidencia
