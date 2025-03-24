@@ -156,4 +156,6 @@ Para mitigar estos efectos, se pueden aplicar diversas estrategias. El uso de fi
 ### Evidencia
 
 A continuacion se evidencias algunas imagenes donde se puede observar diferentes señales transmitidas mediante antenas, recibidas y proyectadas tanto en osciloscopio y analizador e espectros donde se configuro previamente para un analisis optimo. se puede evidenciar la atenuacion ocacionada por el medio transmitido(aire).
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Imagen de WhatsApp 2025-03-24 a las 12.07.18_8a996374.jpg">
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Imagen de WhatsApp 2025-03-24 a las 12.07.18_8a996374.jpg">  
+Una vez seleccionada y configurara la señal a transmitir se procede a proyectarla tanto en el analizador de espectro como en el osciloscopio, esto se puede lograr usando un conector adecuado que me permite conectar el cable coaxial de la antena receptora a los dos dispositivos de analisis.  
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/32faf11392e00949f1b055daacb241fd7bf32e4d/Practica2/Imagenes/WhatsApp%20Image%202025-03-23%20at%206.50.11%20PM.jpeg">
