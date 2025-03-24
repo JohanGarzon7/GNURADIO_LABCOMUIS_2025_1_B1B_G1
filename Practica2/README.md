@@ -123,13 +123,14 @@ adjunte la evidencia de la medición de la relación señal a ruido de dos forma
 
 ¿Cómo se evidencia el fenómeno de desviación de frecuencia en el analizador de espectro? evidencie al menos con dos formas de onda.    
 
-Afecta principlamente en la disminucion de la potencia entregada en el receptor dado que la atenuacion va por distancia recorrida por lo que al tener una mayor distancia que recorrer se recibe menos potencia. 
+Este se evidencia dado a que la señal se corre.
+
 
 <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Captura%20desde%202025-03-23%2021-52-59.png">
 
 ¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida?
 
-
+Afecta principlamente en la disminucion de la potencia entregada en el receptor dado que la atenuacion va por distancia recorrida por lo que al tener una mayor distancia que recorrer se recibe menos potencia. 
 
 ¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?
 Evidencia
