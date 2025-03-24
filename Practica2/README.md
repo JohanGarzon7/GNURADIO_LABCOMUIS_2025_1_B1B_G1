@@ -135,3 +135,24 @@ Afecta principlamente en la disminucion de la potencia entregada en el receptor 
 ¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?  
 
 El modelo de canal que mejor representa las mediciones es el canal con ruido aditivo blanco gaussiano (AWGN).
+## Actividad 4: Efectos de los fenómenos de canal en la conversión de frecuencia  
+
+Familiarizarse con los efectos de los fenómenos de un canal alámbrico e inalámbrico real en la conversión de frecuencia.
+
+### Procedimiento
+
+**Configurar el USRP 2920:**
+   - Configurar el flujograma [filters_flowgraph.grc](filters_flowgraph.grc) en GNU Radio para **transmitir y recibir ** una señal a través del USRP.
+   - Habilitar o deshabilitar los bloques correspondientes (`Channel Model`, `Throttle`, `UHD: USRP Sink`, `UHD: USRP Source`, `Virtual Sink`). Para esto, seleccione el bloque deseado y presione **E** (enable) o **D** (disable), respectivamente.
+   - Configurar siempre la frecuencia de muestreo (`samp_rate`) en $25e6/2^n$ Hz`, donde $n$ es un número entero mayor a 2. Verifique que la frecuencia de muestreo durante la ejecución, sea la misma que ha configurado en el flujograma.
+   - Compare los resultados al recibir la señal usando diferentes medios (aire o cable coaxial).
+
+### Preguntas Orientadoras
+
+- ¿Cómo se evidencian los diferentes fenómenos de canal en la señal recibida?  
+Los diferentes fenómenos del canal se evidencian en la señal recibida a través de variaciones en su amplitud, frecuencia y calidad. La atenuación se observa como una reducción en la amplitud respecto a la señal transmitida. El ruido afecta la claridad de la señal y puede detectarse como un aumento en el nivel de fondo en el analizador de espectros. La desviación de frecuencia se percibe como un desplazamiento en la frecuencia central, mientras que la distorsión e interferencias pueden manifestarse como alteraciones en la forma de la señal debido a reflexiones o multitrayectoria.  
+- ¿Cómo se pueden mitigar los efectos del canal en la señal recibida?
+Para mitigar estos efectos, se pueden aplicar diversas estrategias. El uso de filtros digitales ayuda a reducir el ruido y mejorar la calidad de la señal. Incrementar la potencia de transmisión mejora la relación señal/ruido, permitiendo una mejor recepción. La elección del medio adecuado, como cables coaxiales en lugar de transmisión en aire, minimiza interferencias y pérdidas.
+### Evidencia
+
+*(Adjuntar las evidencias de la práctica en el Aula Virtual: capturas de pantalla, observaciones, cálculos o mediciones preliminares)*
