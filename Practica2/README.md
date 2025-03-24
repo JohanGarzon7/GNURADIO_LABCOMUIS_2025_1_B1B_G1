@@ -36,9 +36,8 @@ Computador 	con GNU Radio: Para simulación y generación de señales usando el 
 Cables y conectores: Para interconexión de equipos.
 
 
-Actividad 1: Actividades de simulación de canal en GNU Radio
-Objetivo
-Familiarizarse con los fenómenos de canal en un ambiente simulado.
+## Actividad 1: Actividades de simulación de canal en GNU Radio
+### Objetivo Familiarizarse con los fenómenos de canal en un ambiente simulado.
 Procedimiento
 Revisar Manuales y Verificar Equipos:
 Cargue el flujograma Enlace Descarga
