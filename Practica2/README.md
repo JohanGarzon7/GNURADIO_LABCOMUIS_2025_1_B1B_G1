@@ -167,7 +167,7 @@ Para transmitir esta señal se deben realizar unos ajustes en el softwaare para 
 <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Imagen%20de%20WhatsApp%202025-03-24%20a%20las%2012.07.17_82caf0c2.jpg">    
 Una vez generada la señal y confugurada adecuadamente se procede a visualizar en los dispositivos:
 <p align="center">
-  <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/eefaca5856543cc553d29ae2e7121ba8546588ff/Practica2/Imagenes/Imagen%20de%20WhatsApp%202025-03-24%20a%20las%2012.07.17_21e82e8c.jpg" width="400">
+  <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/eefaca5856543cc553d29ae2e7121ba8546588ff/Practica2/Imagenes/Imagen%20de%20WhatsApp%202025-03-24%20a%20las%2012.07.17_21e82e8c.jpg" width="600">
 </p>
 
 
