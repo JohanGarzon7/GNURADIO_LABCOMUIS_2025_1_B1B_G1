@@ -47,7 +47,7 @@ Cables y conectores: Para interconexión de equipos.
 
 Al filtrar hacias las altas frecuecnias obtenenmos una mejor resolucion en la señal a mostrar obteniendi la señal por completo.
 
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Captura%20desde%202025-03-23%2019-37-23.png">
+<img src="">
 
 ¿Qué sucede al filtrar muy cerca de la frecuencia fundamental de la señal?  
 
