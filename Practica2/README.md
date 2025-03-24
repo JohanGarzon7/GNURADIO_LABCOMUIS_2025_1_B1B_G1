@@ -97,32 +97,37 @@ Este se evidencia con por asi decirlo variaciones en la forma de onda lo que sig
 
 <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Captura%20desde%202025-03-23%2021-52-59.png">
 
-¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? es posible compensar el fenomeno.  
+¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? 
+
+Afecta principlamente en la disminucion de la potencia entregada en el receptor dado que la atenuacion va por distancia recorrida por lo que al tener una mayor distancia que recorrer se recibe menos potencia. 
 
 ¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?
 Evidencia
 
+## Actividad 3: fenómenos de canal en el analizador de espectro
 
+### Objetivo Familiarizarse con los fenómenos de canal en un ambiente simulado.
+### Procedimiento
 
+- Configurar el USRP 2920:
+- Configure el flujograma en GNU Radio (Enlace Descarga) para transmitir una señal a través del USRP. Habilite o deshabilite los bloques correspondientes (Channel Model, Throttle, UHD: USRP Sink, Virtual Sink). Para esto seleccione el bloque deseado y presione E (enable) o D (disable), respectivamente.
+- Configure siempre la frecuencia de muestreo (samp_rate) en 25e6/2n  Hz. donde n es un número entero mayor a 2. 
+- Encienda, conecte y configure el analizador de espectro con el USRP 2920 con los parámetros necesarios para evidenciar los fenómenos de canal.
 
+## Preguntas Orientadoras
 
-Actividad 3: fenómenos de canal en el analizador de espectro
-_________________________________________________________
-Objetivo
-Familiarizarse con los fenómenos de canal en un ambiente simulado.
-Procedimiento
-Configurar el USRP 2920:
-Configure el flujograma en GNU Radio (Enlace Descarga) para transmitir una señal a través del USRP. Habilite o deshabilite los bloques correspondientes (Channel Model, Throttle, UHD: USRP Sink, Virtual Sink). Para esto seleccione el bloque deseado y presione E (enable) o D (disable), respectivamente.
-Configure siempre la frecuencia de muestreo (samp_rate) en 25e6/2n  Hz. donde n es un número entero mayor a 2. 
-Encienda, conecte y configure el analizador de espectro con el USRP 2920 con los parámetros necesarios para evidenciar los fenómenos de canal.
-Preguntas Orientadoras
-¿Cuál es el efecto del ruido sobre la respuesta en frecuencia de las señales medidas en el analizador de espectro? Conservan las mismas relaciones que se evidencian en la simulación. 
-¿La relación señal a ruido creada intencionalmente desde el computador se amplifica o se reduce en la señal observada en el analizador de espectro?
-adjunte la evidencia de la medición de la relación señal a ruido de dos formas de onda distintas. 
-¿Cómo se evidencia el fenómeno de desviación de frecuencia en el analizador de espectro? evidencie al menos con dos formas de onda. 
+¿Cuál es el efecto del ruido sobre la respuesta en frecuencia de las señales medidas en el analizador de espectro? Conservan las mismas relaciones que se evidencian en la simulación.   
+
+¿La relación señal a ruido creada intencionalmente desde el computador se amplifica o se reduce en la señal observada en el analizador de espectro? 
+adjunte la evidencia de la medición de la relación señal a ruido de dos formas de onda distintas.    
+
+¿Cómo se evidencia el fenómeno de desviación de frecuencia en el analizador de espectro? evidencie al menos con dos formas de onda.    
+
 Determine la afectación de un medio de transmisión coaxial (use los cables largos) sobre una señal periódica operando a las capacidades máximas de muestreo del USRP. 
 NOTA: La frecuencia de transmisión no debe superar los 1000 MHz para ser observada en el analizador. Para el experimento considere las relaciones de muestreo correspondientes,
-Usando cables coaxiales de diferentes longitudes ¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? 
-usando antenas ¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? es posible compensar el fenómeno
+Usando cables coaxiales de diferentes longitudes ¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida?   
+
+¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida?   
+
 ¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?
 Evidencia
