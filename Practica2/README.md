@@ -161,17 +161,19 @@ A continuacion se evidencian algunas imagenes donde se puede observar diferentes
   <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Imagen de WhatsApp 2025-03-24 a las 12.07.18_8a996374.jpg" width="700"> 
 </p>
 Una vez seleccionada y configurara la señal a transmitir se procede a proyectarla tanto en el analizador de espectro como en el osciloscopio, esto se puede lograr usando un conector adecuado que me permite conectar el cable coaxial de la antena receptora a los dos dispositivos de analisis.  
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/WhatsApp%20Image%202025-03-23%20at%206.50.11%20PM.jpeg">
+<p align="center">
+  <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/WhatsApp%20Image%202025-03-23%20at%206.50.11%20PM.jpeg" width='700'>
+</p>
 Se puede evidenciar la atenuacion ocacionada por el medio transmitido(aire) junto con otros factores a fectan la señal como el ruido externo.  
 
 -Señal Sinusolidal modulada en cuadratura:  
 Para transmitir esta señal se deben realizar unos ajustes en el softwaare para modularla, ajustanto valores como la forma de la onda, fecuencia de la señal base, amplitud de la señal base, frecuencia de la portadora, ganancia de la trasnmicion,ruido del canal...  
 <p align="center">
-  <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Imagen%20de%20WhatsApp%202025-03-24%20a%20las%2012.07.17_82caf0c2.jpg" width= '650'>  
+  <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Imagen%20de%20WhatsApp%202025-03-24%20a%20las%2012.07.17_82caf0c2.jpg" width= '700'>  
 </p>
 Una vez generada la señal y confugurada adecuadamente se procede a visualizar en los dispositivos:
 <p align="center">
-  <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/eefaca5856543cc553d29ae2e7121ba8546588ff/Practica2/Imagenes/Imagen%20de%20WhatsApp%202025-03-24%20a%20las%2012.07.17_21e82e8c.jpg" width="650">
+  <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/eefaca5856543cc553d29ae2e7121ba8546588ff/Practica2/Imagenes/Imagen%20de%20WhatsApp%202025-03-24%20a%20las%2012.07.17_21e82e8c.jpg" width="700">
 </p>
 
 
