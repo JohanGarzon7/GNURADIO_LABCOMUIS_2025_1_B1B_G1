@@ -64,6 +64,11 @@ Al filtrar las frecuencias bajas de la señal vamos perdiendo los armonicos que 
 ¿Qué ocurre al eliminar los primeros armónicos de la señal?
 Explique el fenómeno de la desviación de frecuencia en una señal. Puede hacerlo con al menos dos casos.  
 
+Al eliminar los armonicos de una señal  podemos observar un cambio en la forma de onda, perdemos calidad en la señal y el efecto de la desviacion en la frecuencia es que esta cambia con respecto a su espectador.  
+- Efecto Doppler
+
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Captura%20desde%202025-03-23%2019-53-36.png">
+
 Observe cómo se degrada la señal al aumentar los niveles de ruido. Analice su comportamiento en el dominio del tiempo y la frecuencia para al menos dos formas de onda distintas.  
 
 ¿Cómo se puede mejorar la relación señal a ruido en una señal? Demuestre con un ejemplo gráfico y determine el umbral de ruido con el cual es posible recuperar cada forma de onda utilizando únicamente filtrado.	  
