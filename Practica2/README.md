@@ -159,10 +159,11 @@ A continuacion se evidencian algunas imagenes donde se puede observar diferentes
 -Señal cuadrada:  
 <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Imagen de WhatsApp 2025-03-24 a las 12.07.18_8a996374.jpg">  
 Una vez seleccionada y configurara la señal a transmitir se procede a proyectarla tanto en el analizador de espectro como en el osciloscopio, esto se puede lograr usando un conector adecuado que me permite conectar el cable coaxial de la antena receptora a los dos dispositivos de analisis.  
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/32faf11392e00949f1b055daacb241fd7bf32e4d/Practica2/Imagenes/WhatsApp%20Image%202025-03-23%20at%206.50.11%20PM.jpeg">
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/WhatsApp%20Image%202025-03-23%20at%206.50.11%20PM.jpeg">
 Se puede evidenciar la atenuacion ocacionada por el medio transmitido(aire) junto con otros factores a fectan la señal como el ruido externo.
 -Señal Sinusolidal modulada en cuadratura:  
 Para transmitir esta señal se deben realizar unos ajustes en el softwaare para modularla, ajustanto valores como la forma de la onda, fecuencia de la señal base, amplitud de la señal base, frecuencia de la portadora, ganancia de la trasnmicion,ruido del canal...  
 <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Imagen%20de%20WhatsApp%202025-03-24%20a%20las%2012.07.17_82caf0c2.jpg">  
 una vez generada la señal y confugurada adecuadamente se procede a visualizar en los dispositivos:  
-<img scr="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Imagen%20de%20WhatsApp%202025-03-24%20a%20las%2012.07.17_21e82e8c.jpg">
+<img scr="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Imagen%20de%20WhatsApp%202025-03-24%20a%20las%2012.07.17_21e82e8c.jpg">  
+Igualmente se vuelve a visualizar una atenuacion y precencia de ruido en la señal recibida.
