@@ -91,12 +91,13 @@ Observe cómo se degrada la señal al aumentar los niveles de ruido. Analice su 
 
 demuestre ¿Cómo se puede mejorar la relación señal a ruido en una señal?  
 
-¿Cómo se evidencia el fenómeno de desviación de frecuencia en el osciloscopio? evidencie al menos con dos formas de onda
-Determine la afectación de un medio de transmisión coaxial (use los cables largos) sobre una señal periódica operando a las capacidades máximas de muestreo del USRP. 
-NOTA: La frecuencia de transmisión no debe superar los 500 MHz para ser observada en el osciloscopio. Para el experimento considere las relaciones de muestreo correspondientes,  
+¿Cómo se evidencia el fenómeno de desviación de frecuencia en el osciloscopio? 
 
-Usando cables coaxiales de diferentes longitudes ¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? 
-usando antenas ¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? es posible compensar el fenomeno.  
+Este se evidencia con por asi decirlo variaciones en la forma de onda lo que siginifica que se ve inestable por asi decirlo y en el osciloscopio se ve dezplazada la señal como se ve en la siguiente figura.
+
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Captura%20desde%202025-03-23%2021-52-59.png">
+
+¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? es posible compensar el fenomeno.  
 
 ¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?
 Evidencia
