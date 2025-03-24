@@ -155,4 +155,5 @@ Los diferentes fenómenos del canal se evidencian en la señal recibida a travé
 Para mitigar estos efectos, se pueden aplicar diversas estrategias. El uso de filtros digitales ayuda a reducir el ruido y mejorar la calidad de la señal. Incrementar la potencia de transmisión mejora la relación señal/ruido, permitiendo una mejor recepción. La elección del medio adecuado, como cables coaxiales en lugar de transmisión en aire, minimiza interferencias y pérdidas.
 ### Evidencia
 
-*(Adjuntar las evidencias de la práctica en el Aula Virtual: capturas de pantalla, observaciones, cálculos o mediciones preliminares)*
+A continuacion se evidencias algunas imagenes donde se puede observar diferentes señales transmitidas mediante antenas, recibidas y proyectadas tanto en osciloscopio y analizador e espectros donde se configuro previamente para un analisis optimo. se puede evidenciar la atenuacion ocacionada por el medio transmitido(aire).
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Imagen de WhatsApp 2025-03-24 a las 12.07.18_8a996374.jpg">
