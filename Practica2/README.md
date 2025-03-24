@@ -132,5 +132,6 @@ Este se evidencia dado a que la señal se corre.
 
 Afecta principlamente en la disminucion de la potencia entregada en el receptor dado que la atenuacion va por distancia recorrida por lo que al tener una mayor distancia que recorrer se recibe menos potencia. 
 
-¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?
-Evidencia
+¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?  
+
+El modelo de canal que mejor representa las mediciones es el canal con ruido aditivo blanco gaussiano (AWGN).
