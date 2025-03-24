@@ -66,13 +66,13 @@ Explique el fenómeno de la desviación de frecuencia en una señal. Puede hacer
 
 Al eliminar los armonicos de una señal  podemos observar un cambio en la forma de onda, perdemos calidad en la señal y el efecto de la desviacion en la frecuencia es que esta cambia con respecto a su espectador.  
 - Efecto Doppler
-
+<p align="center">
 <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Captura%20desde%202025-03-23%2019-53-36.png">
-
+</p>
 Observe cómo se degrada la señal al aumentar los niveles de ruido. Analice su comportamiento en el dominio del tiempo.
-
+<p align="center">
 <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Captura%20desde%202025-03-23%2019-56-42.png">
-  
+</p>
 	
 ## Actividad 2: fenómenos de canal en el osciloscopio
 
