@@ -57,6 +57,10 @@ Al filtrar muy cerca a la señal fundamental perdemos la componente fundamental 
 
 ¿Cuál es el efecto de filtrar las frecuencias bajas de una señal periódica?  
 
+Al filtrar las frecuencias bajas de la señal vamos perdiendo los armonicos que componen a esta 
+
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Captura%20desde%202025-03-23%2019-23-53.png">
+
 ¿Qué ocurre al eliminar los primeros armónicos de la señal?
 Explique el fenómeno de la desviación de frecuencia en una señal. Puede hacerlo con al menos dos casos.  
 
