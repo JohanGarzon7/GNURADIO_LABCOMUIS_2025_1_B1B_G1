@@ -82,15 +82,21 @@ Observe cómo se degrada la señal al aumentar los niveles de ruido. Analice su 
 - Configure el flujograma (Enlace Descarga) en GNU Radio para transmitir una señal a través del USRP. Habilite o deshabilite los bloques correspondientes (Channel Model, Throttle, UHD: USRP Sink, Virtual Sink). Para esto seleccione el bloque deseado y presione E (enable) o D (disable), respectivamente.
 - Configure siempre la frecuencia de muestreo (samp_rate) en 25e6/2n  Hz. donde n es un número entero mayor a 2. 
 - Encienda, conecte y configure el osciloscopio con el USRP 2920 con los parámetros necesarios para evidenciar los fenómenos de canal.
-Preguntas Orientadoras
-¿Cuál es el efecto del ruido sobre la amplitud de las señales medidas en el osciloscopio? Conservan las mismas relaciones que se evidencian en la simulación. 
-¿la relación señal a ruido creada intencionalmente en el computador se amplifica o se reduce en la señal observada en el osciloscopio?
-demuestre ¿Cómo se puede mejorar la relación señal a ruido en una señal?
+## Preguntas Orientadoras  
+
+¿Cuál es el efecto del ruido sobre la amplitud de las señales medidas en el osciloscopio? Conservan las mismas relaciones que se evidencian en la simulación.   
+
+¿la relación señal a ruido creada intencionalmente en el computador se amplifica o se reduce en la señal observada en el osciloscopio?  
+
+demuestre ¿Cómo se puede mejorar la relación señal a ruido en una señal?  
+
 ¿Cómo se evidencia el fenómeno de desviación de frecuencia en el osciloscopio? evidencie al menos con dos formas de onda
 Determine la afectación de un medio de transmisión coaxial (use los cables largos) sobre una señal periódica operando a las capacidades máximas de muestreo del USRP. 
-NOTA: La frecuencia de transmisión no debe superar los 500 MHz para ser observada en el osciloscopio. Para el experimento considere las relaciones de muestreo correspondientes,
+NOTA: La frecuencia de transmisión no debe superar los 500 MHz para ser observada en el osciloscopio. Para el experimento considere las relaciones de muestreo correspondientes,  
+
 Usando cables coaxiales de diferentes longitudes ¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? 
-usando antenas ¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? es posible compensar el fenomeno
+usando antenas ¿Cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? es posible compensar el fenomeno.  
+
 ¿Qué modelo de canal básico describe mejor las mediciones obtenidas en la práctica?
 Evidencia
 
