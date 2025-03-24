@@ -51,6 +51,8 @@ Al filtrar hacias las altas frecuecnias obtenenmos una mejor resolucion en la se
 
 ¿Qué sucede al filtrar muy cerca de la frecuencia fundamental de la señal?  
 
+Al filtrar muy cerca a la señal fundamental perdemos la componente fundamental haciendo asi que se pierda la parte mas importante de la señal.
+
 ¿Cuál es el efecto de filtrar las frecuencias bajas de una señal periódica?  
 
 ¿Qué ocurre al eliminar los primeros armónicos de la señal?
