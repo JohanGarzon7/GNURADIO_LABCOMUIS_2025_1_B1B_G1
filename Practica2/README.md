@@ -45,7 +45,9 @@ Cables y conectores: Para interconexión de equipos.
   
 ¿Cuál es el efecto de filtrar las frecuencias altas de una señal periódica?   
 
-Al filtrar hacias las altas frecuecnias obtenenmos una mejor resolucion en la señal a mostrar onteniendo la señal por completo.
+Al filtrar hacias las altas frecuecnias obtenenmos una mejor resolucion en la señal a mostrar obteniendi la señal por completo.
+
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Captura%20desde%202025-03-23%2019-37-23.png">
 
 ¿Qué sucede al filtrar muy cerca de la frecuencia fundamental de la señal?  
 
@@ -57,8 +59,6 @@ Explique el fenómeno de la desviación de frecuencia en una señal. Puede hacer
 Observe cómo se degrada la señal al aumentar los niveles de ruido. Analice su comportamiento en el dominio del tiempo y la frecuencia para al menos dos formas de onda distintas.  
 
 ¿Cómo se puede mejorar la relación señal a ruido en una señal? Demuestre con un ejemplo gráfico y determine el umbral de ruido con el cual es posible recuperar cada forma de onda utilizando únicamente filtrado.	  
-
-Evidencia
 	
 ## Actividad 2: fenómenos de canal en el osciloscopio
 
