@@ -164,7 +164,7 @@ Se puede evidenciar la atenuacion ocacionada por el medio transmitido(aire) junt
 
 -Señal Sinusolidal modulada en cuadratura:  
 Para transmitir esta señal se deben realizar unos ajustes en el softwaare para modularla, ajustanto valores como la forma de la onda, fecuencia de la señal base, amplitud de la señal base, frecuencia de la portadora, ganancia de la trasnmicion,ruido del canal...  
-<p aling="center">
+<p align="center">
   <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Imagen%20de%20WhatsApp%202025-03-24%20a%20las%2012.07.17_82caf0c2.jpg" with= '650'>  
 </p>
 Una vez generada la señal y confugurada adecuadamente se procede a visualizar en los dispositivos:
