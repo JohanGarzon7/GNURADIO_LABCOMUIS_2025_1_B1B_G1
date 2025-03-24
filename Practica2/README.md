@@ -41,7 +41,8 @@ Cables y conectores: Para interconexión de equipos.
 ### Procedimiento
 - Revisar Manuales y Verificar Equipos:
 - Cargue el flujograma Enlace Descarga
-- Configure siempre la frecuencia de muestreo (samp_rate) en 25e6/2n  Hz. donde n es un número entero mayor a 2. 	
+- Configure siempre la frecuencia de muestreo (samp_rate) en 25e6/2n  Hz. donde n es un número entero mayor a 2.
+  
 ¿Cuál es el efecto de filtrar las frecuencias altas de una señal periódica?
 ¿Qué sucede al filtrar muy cerca de la frecuencia fundamental de la señal?
 ¿Cuál es el efecto de filtrar las frecuencias bajas de una señal periódica?
