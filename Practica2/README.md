@@ -151,7 +151,7 @@ Familiarizarse con los efectos de los fenómenos de un canal alámbrico e inalá
 
 - ¿Cómo se evidencian los diferentes fenómenos de canal en la señal recibida?  
 Los diferentes fenómenos del canal se evidencian en la señal recibida a través de variaciones en su amplitud, frecuencia y calidad. La atenuación se observa como una reducción en la amplitud respecto a la señal transmitida. El ruido afecta la claridad de la señal y puede detectarse como un aumento en el nivel de fondo en el analizador de espectros. La desviación de frecuencia se percibe como un desplazamiento en la frecuencia central, mientras que la distorsión e interferencias pueden manifestarse como alteraciones en la forma de la señal debido a reflexiones o multitrayectoria.  
-- ¿Cómo se pueden mitigar los efectos del canal en la señal recibida?
+- ¿Cómo se pueden mitigar los efectos del canal en la señal recibida?  
 Para mitigar estos efectos, se pueden aplicar diversas estrategias. El uso de filtros digitales ayuda a reducir el ruido y mejorar la calidad de la señal. Incrementar la potencia de transmisión mejora la relación señal/ruido, permitiendo una mejor recepción. La elección del medio adecuado, como cables coaxiales en lugar de transmisión en aire, minimiza interferencias y pérdidas.
 ### Evidencia
 
