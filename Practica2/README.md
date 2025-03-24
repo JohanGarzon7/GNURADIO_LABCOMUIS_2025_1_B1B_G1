@@ -43,7 +43,9 @@ Cables y conectores: Para interconexión de equipos.
 - Cargue el flujograma Enlace Descarga
 - Configure siempre la frecuencia de muestreo (samp_rate) en 25e6/2n  Hz. donde n es un número entero mayor a 2.
   
-¿Cuál es el efecto de filtrar las frecuencias altas de una señal periódica?  
+¿Cuál es el efecto de filtrar las frecuencias altas de una señal periódica?   
+
+Al filtrar hacias las altas frecuecnias obtenenmos una mejor resolucion en la señal a mostrar onteniendo la señal por completo.
 
 ¿Qué sucede al filtrar muy cerca de la frecuencia fundamental de la señal?  
 
