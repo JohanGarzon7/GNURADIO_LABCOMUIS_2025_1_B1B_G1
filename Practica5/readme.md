@@ -3,7 +3,7 @@
 
 ## Universidad Industrial de Santander
 
-# Practica 1
+# Practica 5
 
 ### Integrantes
 
@@ -122,6 +122,8 @@ Agregando una nueva señal, en este caso una señal de audio, como ya sabemos es
 </p>  
 
 ### Analisis de resultados 2do punto
+Cada señal ocupa su propio intervalo previamente definido, y se puede observar que no hay superposición entre ellas. Esto garantiza que, al multiplexarlas, no haya pérdida de información en ninguna de las señales.
+En el segundo punto se solicita añadir un nuevo canal, lo cual modifica la fórmula utilizada para calcular los intervalos. En lugar de 4 canales, ahora se consideran 5, lo que implica que la separación entre los intervalos de cada señal es del 20%. Como se muestra en la imagen, los retardos quedan distribuidos como: D1 = 0, D2 = 20, D3 = 40, D4 = 60 y D5 = 80. Esta separación asegura que no haya superposición entre señales.  
 
 
 Volver al [INICIO](#GNURADIO_LABCOMUIS_2025_1_B1B_G1)
