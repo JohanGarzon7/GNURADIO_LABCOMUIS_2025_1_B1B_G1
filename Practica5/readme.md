@@ -75,19 +75,26 @@ Se observaron los efectos del muestreo natural sobre las formas de onda utilizan
 -Espectros de frecuencia para identificar los componentes espectrales de la señal PAM.  
 
 
-###Multiplexación de señales  
+### Multiplexación de señales  
 
 Se aplicó multiplexación por división de tiempo (TDM), asignando intervalos separados a cada canal. Se realizó el experimento con cuatro señales inicialmente, observando que no se producía solapamiento gracias a la separación de los intervalos.  
 
 Posteriormente, se agregó un quinto canal, ajustando la separación al 20% para garantizar la no interferencia, como se muestra en los diagramas generados.  
 
 ### Imagenes de analisis  
-Para el analisis de las señales moduladas, vamos a dar inicion a la primera señal la cual es una señal triangular:  
+Para el analisis de las señales moduladas, vamos a dar inicio a la primera señal la cual es una señal triangular:  
+
+Se genera un tren de pulsos con una frecuencia de 1000 Hz y una señal de mensaje de 50 Hz con un ancho de pulso de 4 ms. La señal resultante presenta pulsos con amplitud que varía en forma triangular, esta forma de muestreo permite observar claramente cómo la amplitud de cada pulso corresponde a un valor instantáneo de la señal original.  
 
 <p align="center">
   <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/TRIANGULAR.png?raw=true" width="400">
-</p>
+</p>  
 
+Seguido de esto damos paso a visualizar la siguiente señal la cual es una señal sinosuidal:  
+
+<p align="center">
+  <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/sen.png?raw=true" width="400">
+</p>  
 ### Análisis de resultados
 Se comprobó que, con una correcta elección de los intervalos y del ancho de los pulsos, las señales pueden multiplexarse sin pérdida de información ni solapamiento. Esto se evidenció en los diagramas de muestreo y en la ausencia de interferencias entre señales.
 
