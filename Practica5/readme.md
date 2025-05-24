@@ -103,7 +103,7 @@ En este caso, se eleva la frecuencia del mensaje a 80 Hz con un ancho de pulso d
 <p align="center">
   <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/Cierra.png?raw=true" width="400">
 </p> 
-### Analisis de resultados  
+## Analisis de resultados  
 
 Se comprobó que, con una correcta elección de los intervalos y del ancho de los pulsos, las señales pueden multiplexarse sin pérdida de información ni solapamiento. Esto se evidenció en los diagramas de muestreo y en la ausencia de interferencias entre señales.
 
