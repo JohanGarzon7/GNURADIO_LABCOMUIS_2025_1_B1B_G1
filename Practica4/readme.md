@@ -38,80 +38,23 @@ preacticos junto con los datos teoricos.
 
 # Procedimiento
 
-## Reconocimiento de los equipos:
+## Diseño en GNU para practica 
 
-Para este paso la idea fue buscar los datasheets de los distintos aparatos asi como el rango de funcionamiento de estos por ejemplo saber cual es el rango de frecuencia el que pueden utilizar esto para no sobrepasar dichos limites y hacer mediciones incorrectaas, por ellos una vez analizados los parametros se saco esta lista el cual resume los datos hallados: 
-
-### USRP-2920 
-- Ancho de Banda: 20MHz 
-- Rango de frecuencia: 50MHz a 2.2GHz 
-- Paso de frecuencia: <1KHz 
-- Rango de ganacia: 0 dB a 31 dB 
-- Potenca tipica. 12W a 15W
-### Analizador de Espectros R&S FPC1000 
-- Numero de canales: 1 
-- Ancho de banda: 1Hz 
-- Impedancia de entrada: 50 ohm 
-- Maximo samp_rate: 2.5Gsamples/s 
-- Resolucion de frecuencia: 1 Hz
-### Osciloscopio R&S RTB2004
-- Impedancia de entreda: 1M ohm .
-- Numero de canales: 4 
-- Resolucion: 14 bit 
-- Rango de frecuencia: 5Khz a 1Ghz 
-- Canales digitales
-
-Otros cosas relevantes son las configuraciones que se les deben a hacer a dichos aparatos, para configurar el osciloscopio para medir la amplitud y la frecuencia de una señal a este se le configura la escala de division osea los volts por divicion ademas del la posicion horizontal tambien es importante para un buena medicion, se puede agregar de igual manera cualquier medida que se necesite de la señal el periodo la frecuencia etc..
-
-Entre medir una señal en el dominio del tiempo y en el dominio de la frecuecnia ay ciertas diferencias entre ellas que con el osciloscopio en el dominio de tiempo se puede calcular la amplitud de la señal y en el analizador de espectros la potencia y ancho de banda.  
-
-Se mide con el analizador de espectros mas especificamente con el RBW aumentar o disminuir el span requiere de mas o menos costo computacional ya que puede llegra a ser medida la señal de una manera mas precisa.
-
-## Simulacion de Señales en GNU Radio
-
-En este aparto veremos como se comportavan la señales con diferentes tipos de forma de onda y como varian en tiempo y en frecuencia.  
-
-Para simular esto utilizamos el siguiente flujograma de GNURADIO [`simple_flowgraph.grc`](https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/simple_flowgraph.grc).  
-Eh identificamos los bloques necesarios para el funcionamiento de nuestro programa:  
-
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/Evidencias/WhatsApp%20Image%202025-03-06%20at%209.39.11%20PM.jpeg">  
-Una vez teniendo en cuenta cuales son nuetros bloques principales ejecutaremos nuestro flujograma para que nos quede algo asi:  
+Para este apartado lo que se debio de hacer fue algo sencillo ya que simplemente basto con descargar la base del archivo .grc ya dado para simplemente guardarlo y emepezar
+la practica lo que debemedo de visualizar en GNU fue lo siguiente
 
 <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/Evidencias/Captura%20desde%202025-03-06%2021-44-37.png">  
-Ahora pasaremos ah analizar las señales para ello modificaremos el tipo de onda la forma de esta la frecuencia y faase de la señal.  
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/Evidencias/Captura%20desde%202025-02-25%2015-58-10.png">  
-Nos quedara algo similar a lo anterior si se desea ver mas imagenes con variaciones con distintos parametro debe acceder a lo siguiente
 
-[Ir a las evidencias](/Practica1/Practica1C/Evidencias)
+## Modulacion de Banda Estrecha
 
-Ahora con esto podemos analizar y reponder cual es la diferencia entre una una fuente de tipo flotante y una de tipo complejo y esa es s que se genera una señal sinosoidal real mientras que en el tipo complejo se genera una señal real e imaginaria una desfada 90 grados de la otrra en banda base lo cual vendria siendo una señal exponecial compleja.
-
-Como bien se vio la forma de onda afecta a la distribuccionde energia a que se debe esto esta genera mas ruido en el dominio de la frencuencia, en señales como la cuadrada o diente de cierra este ruido es mayor, mientras que en señales como sinusoidales este ruido es minimo.  
-
-Ahora si se modifican distintos parametros como la amlitud, el offset,etc... de la señal, esta se visualizara en la grafica del dominio del tiempo mientras quye el el dominio de la frecuencia su ganancia se vera alterada.  
-
-Al aumentar la amplitud en el dominio del tiempo, esta causa que se genere mas ganancia en el espectro de frecuencia.
-
-## Transmisión y Medición de Señales con el USRP 2920
-
-Para este apartado transmitiremos señales usando el USRP 2920 y medimos parámetros clave como potencia, ancho de banda, piso de ruido y relación señal a ruido (SNR).
+- Determine el comportamiento en el tiempo (osciloscopio) y calcule la potencia de la envolvente compleja a partir de las señales observadas. (sobre la medicion en el osciloscopio indique dichas características).
+  
+-  ¿Cuáles características de la señal mensaje se pueden observar en el osciloscopio? (sobre la imagen tomada indique dichas características).
+  
+-  Determine el comportamiento de la señal modulada en el analizador de espectro para cada caso. Estime la potencia de la señal modulada.
 
 ## Analisis de resultados
-### Actividad 3: Transmisión y Medición de Señales con el USRP 2920
-Para la transmision de y medicion de Señales haciendo uso del USRP 2920, como primer paso se debe configurar el dispositivo, primero debemos crear un flujograma para que se pueda conectar mediante el reloj del computador, también debe conectar el lan y el cable tx/rx para transimitir la señal.  
-El flujograma posee algunos parametro sque pueden afectr la potencia de la señale transmitida tales  como la amplitud, el ofset, el ruido de voltaje y el ancho de banda de resolucion. Es te ultimo se puede medir directamente desde el analizador de espectros, para esto se debe modificar como se ve la informacion en el analizador de espectros por lo que se debe varias la frecuencia central a una mas adecuada y poner un nivel de referencia con uno de los marcadores para luego poner otro marcador al otro punto de la señal.  
-para calcular la SNR de la señal se hace uso de la ecuacion:  
-    SNR = 10 log10 (Potencia de la señal / Potencia de ruido)
 
-
-Al varias la ganancia del USRP se observan cambios en la potencia, una mayor amplitud, puede aumentar el ruido y mejorar el SNR.  
-Respondiendo a la pregunta se "¿Es posible medir o estimar la potencia de la señal observada en el osciloscopio? ¿Por qué?" la respuesta es principalmente por que el osciloscopio es echo para medir volatajes sin potencia, sin embargo si se puede estimar con la relación:  
-$\ P = \frac{V^2}{R} \$ 
-### Actividad 4
-Las concluisones que se pueden observar sobre la relacion entre la potencia de la señal y la calidad de la comunicacion esque es importante encontrar un equilibrio entre la potencia y otras cosas a tener en cuenta (consumo,interferencia) entre este y más apartados. El piso de ruido afecta la capacidad de detectar sanales debiles dado que si el piso de ruido es demaciado "Abosrveria" la señal y no se podría analizar debidamente.  
-Las limitaciones que presentan algunos equipos para realizar las mediciones de ancho de banda y precision en las mediciones es dependiendo del dispositivo al que mencionemos como ejemplo tenemos el Osciloscopio R&S RTB2004 el cual posee un rango de frecuencia: 5Khz a 1Ghz es en cuanto a limitaciones, con el analizador de espectros y una señal que se comporta en el rango de frecuencias permitido para este se pude medir la señal con una buena configuración de este.
-Para mejorar las mediciones de la señal en un entorno con alto nivel de ruido se puede optar por estrategias como relizar filtros pasabajas, pasa altas que pueden ayudar a eliminar e ruido no deseado, aumentar la potencia de transmicion de la señal ya que generaria una mayor diferencia entre la señal que se desea trasnmitir y el nivel de ruido.  
-Algunas de las aplicaciones practicas del uso de mediciones de potencia y ancho de banda es el diseño de sistemas de radio y televicion ya que estos permiten asegurar que la transmision cumpla con los requisitos para una buena calidad.  
 # Conclusiones:
 ## 1.)
 Se logró obtener un mejor manejo y uso de los equipos de laboratorio adaptandoce a los nuevos equipos con mucha mas facilidad a lo largo de las practicas que se requerian en cada una de las diferentes actividades.
