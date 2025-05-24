@@ -40,3 +40,4 @@
 - ..Delta de frecuencia= 2.411 kHz
 - ..Potencia = -25dB
 
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/Snapshot_2025-05-24_00-03-44.png">
