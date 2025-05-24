@@ -53,6 +53,14 @@ la practica lo que debemedo de visualizar en GNU fue lo siguiente
   
 -  Determine el comportamiento de la señal modulada en el analizador de espectro para cada caso. Estime la potencia de la señal modulada.
 
+## Modulacion de Banda Ancha
+
+- Determine el comportamiento en el tiempo y estime la potencia de la envolvente compleja a partir de las señales observadas en el osciloscopio.
+  
+- Determine el comportamiento de la señal modulada en el osciloscopio para cada caso. Determine la forma de onda de la señal modulada.
+  
+- Determine el ancho de banda de la señal modulada en el analizador de espectro para este caso.
+
 ## Analisis de resultados
 
 # Conclusiones:
