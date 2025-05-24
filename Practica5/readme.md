@@ -82,9 +82,10 @@ Se aplicó multiplexación por división de tiempo (TDM), asignando intervalos s
 Posteriormente, se agregó un quinto canal, ajustando la separación al 20% para garantizar la no interferencia, como se muestra en los diagramas generados.  
 
 ### Imagenes de analisis  
+Para el analisis de las señales moduladas, vamos a dar inicion a la primera señal la cual es una señal triangular:  
 
 <p align="center">
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica2/Imagenes/Captura%20desde%202025-03-23%2019-56-42.png">
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Imagenes/TRIANGULAR-56-42.png">
 </p>
 ### Análisis de resultados
 Se comprobó que, con una correcta elección de los intervalos y del ancho de los pulsos, las señales pueden multiplexarse sin pérdida de información ni solapamiento. Esto se evidenció en los diagramas de muestreo y en la ausencia de interferencias entre señales.
