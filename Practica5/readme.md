@@ -118,7 +118,7 @@ A continuacion se presenta un ejemplo con las cuatro señales multiplexadas:
 Como podemos ver que cada señal tiene su propio intervalo ya antes dichos, y efectivamente podemos notar que ninguna de las señales se solapan entre sí, y esto nos ayuda que ninguna de estas señales pierda información cuando se se multiplexan.  
 Agregando una nueva señal, en este caso una señal de audio, como ya sabemos es una señal aleatoria pero que aun asi se puede modular, para esto debemo disminuir la feecuencia del mensaje y aumentando la frecuencia de pulsos.  
 <p align="center">
-  <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/multiplexacionx2.png?raw=true" width="400">
+  <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/multiplezacionx2.png?raw=true" width="400">
 </p>  
 
 ### Analisis de resultados 2do punto
