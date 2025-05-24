@@ -21,3 +21,5 @@ El ruido Gaussiano como tal no afecta el desempeño del cuantizador ya que este 
 ### 5. Ventajas y Desventajas del Cuantizador No Uniforme
 
 La desventaja del uso de un modelo de cuantizador no uniforme es que este puede aumentar la amplitud del ruido que posee baja amplitud, la principal ventaja es que este modelo de cuentizador no uniforme, puede tener una mejor resolucion frente a modelo Uniforme.
+
+# Parte B_2
