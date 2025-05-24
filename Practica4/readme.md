@@ -60,6 +60,8 @@ la practica lo que debemedo de visualizar en GNU fue lo siguiente
 - Determine el comportamiento de la señal modulada en el osciloscopio para cada caso. Determine la forma de onda de la señal modulada.
   
 - Determine el ancho de banda de la señal modulada en el analizador de espectro para este caso.
+  
+## Calcule los coeficientes de Bessel
 
 ## Analisis de resultados
 
