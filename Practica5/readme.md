@@ -105,54 +105,23 @@ En este caso, se eleva la frecuencia del mensaje a 80 Hz con un ancho de pulso d
 </p> 
 
 
-### Analisis de resultados  
+### Analisis de resultados primer punto  
 
 Se comprobó que, con una correcta elección de los intervalos y del ancho de los pulsos, las señales pueden multiplexarse sin pérdida de información ni solapamiento. Esto se evidenció en los diagramas de muestreo y en la ausencia de interferencias entre señales.
 
-## Simulacion de Señales en GNU Radio
+### Segundo punto  
+Para el desarrollo de este punto partimos ddel concepto de multiplezacion de diferentes señales, el cual se debe realizar primero la modificacion de la frecuencia del mensaje y la frecuencia de pulsos, esto con el fin de generar un espacio en el cual nuestras señales en este caso cuatro con unretardo de una respecto a la otra.  
+A continuacion se presenta un ejemplo con las cuatro señales multiplexadas:  
+<p align="center">
+  <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/multiplexacion.png?raw=true" width="400">
+</p>  
+Como podemos ver que cada señal tiene su propio intervalo ya antes dichos, y efectivamente podemos notar que ninguna de las señales se solapan entre sí, y esto nos ayuda que ninguna de estas señales pierda información cuando se se multiplexan.  
+Agregando una nueva señal, en este caso una señal de audio, como ya sabemos es una señal aleatoria pero que aun asi se puede modular, para esto debemo disminuir la feecuencia del mensaje y aumentando la frecuencia de pulsos.  
+<p align="center">
+  <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/multiplexacionx2.png?raw=true" width="400">
+</p>  
 
-En este aparto veremos como se modelaron las diferentes señales y como se muestrean dependiendiendo el tipo de modulacion que estamos trabajando:  
+### Analisis de resultados 2do punto
 
-
-Para simular esto utilizamos el siguiente flujograma de GNURADIO [`simple_flowgraph.grc`](https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/simple_flowgraph.grc).  
-Eh identificamos los bloques necesarios para el funcionamiento de nuestro programa:  
-
-
-
-Ahora con esto podemos analizar y reponder cual es la diferencia entre una una fuente de tipo flotante y una de tipo complejo y esa es s que se genera una señal sinosoidal real mientras que en el tipo complejo se genera una señal real e imaginaria una desfada 90 grados de la otrra en banda base lo cual vendria siendo una señal exponecial compleja.
-
-Como bien se vio la forma de onda afecta a la distribuccionde energia a que se debe esto esta genera mas ruido en el dominio de la frencuencia, en señales como la cuadrada o diente de cierra este ruido es mayor, mientras que en señales como sinusoidales este ruido es minimo.  
-
-Ahora si se modifican distintos parametros como la amlitud, el offset,etc... de la señal, esta se visualizara en la grafica del dominio del tiempo mientras quye el el dominio de la frecuencia su ganancia se vera alterada.  
-
-Al aumentar la amplitud en el dominio del tiempo, esta causa que se genere mas ganancia en el espectro de frecuencia.
-
-## Transmisión y Medición de Señales con el USRP 2920
-
-Para este apartado transmitiremos señales usando el USRP 2920 y medimos parámetros clave como potencia, ancho de banda, piso de ruido y relación señal a ruido (SNR).
-
-## Analisis de resultados
-### Actividad 3: Transmisión y Medición de Señales con el USRP 2920
-Para la transmision de y medicion de Señales haciendo uso del USRP 2920, como primer paso se debe configurar el dispositivo, primero debemos crear un flujograma para que se pueda conectar mediante el reloj del computador, también debe conectar el lan y el cable tx/rx para transimitir la señal.  
-El flujograma posee algunos parametro sque pueden afectr la potencia de la señale transmitida tales  como la amplitud, el ofset, el ruido de voltaje y el ancho de banda de resolucion. Es te ultimo se puede medir directamente desde el analizador de espectros, para esto se debe modificar como se ve la informacion en el analizador de espectros por lo que se debe varias la frecuencia central a una mas adecuada y poner un nivel de referencia con uno de los marcadores para luego poner otro marcador al otro punto de la señal.  
-para calcular la SNR de la señal se hace uso de la ecuacion:  
-    SNR = 10 log10 (Potencia de la señal / Potencia de ruido)
-
-
-Al varias la ganancia del USRP se observan cambios en la potencia, una mayor amplitud, puede aumentar el ruido y mejorar el SNR.  
-Respondiendo a la pregunta se "¿Es posible medir o estimar la potencia de la señal observada en el osciloscopio? ¿Por qué?" la respuesta es principalmente por que el osciloscopio es echo para medir volatajes sin potencia, sin embargo si se puede estimar con la relación:  
-$\ P = \frac{V^2}{R} \$ 
-### Actividad 4
-Las concluisones que se pueden observar sobre la relacion entre la potencia de la señal y la calidad de la comunicacion esque es importante encontrar un equilibrio entre la potencia y otras cosas a tener en cuenta (consumo,interferencia) entre este y más apartados. El piso de ruido afecta la capacidad de detectar sanales debiles dado que si el piso de ruido es demaciado "Abosrveria" la señal y no se podría analizar debidamente.  
-Las limitaciones que presentan algunos equipos para realizar las mediciones de ancho de banda y precision en las mediciones es dependiendo del dispositivo al que mencionemos como ejemplo tenemos el Osciloscopio R&S RTB2004 el cual posee un rango de frecuencia: 5Khz a 1Ghz es en cuanto a limitaciones, con el analizador de espectros y una señal que se comporta en el rango de frecuencias permitido para este se pude medir la señal con una buena configuración de este.
-Para mejorar las mediciones de la señal en un entorno con alto nivel de ruido se puede optar por estrategias como relizar filtros pasabajas, pasa altas que pueden ayudar a eliminar e ruido no deseado, aumentar la potencia de transmicion de la señal ya que generaria una mayor diferencia entre la señal que se desea trasnmitir y el nivel de ruido.  
-Algunas de las aplicaciones practicas del uso de mediciones de potencia y ancho de banda es el diseño de sistemas de radio y televicion ya que estos permiten asegurar que la transmision cumpla con los requisitos para una buena calidad.  
-# Conclusiones:
-## 1.)
-Se logró obtener un mejor manejo y uso de los equipos de laboratorio adaptandoce a los nuevos equipos con mucha mas facilidad a lo largo de las practicas que se requerian en cada una de las diferentes actividades.
-## 2.)
-A lo largo de la práctica, se observaron diversos fenómenos estudiados previamente en el curso teórico, lo que facilitó su comprensión y permitió identificar factores que influyen en la transmisión de señales de información. Además, mediante el uso del programa GNU Radio, se generaron distintos tipos de señales, ajustando diversos parámetros para modificar sus características.
-## 3.)
-El uso de las comunicaciones en el mundo moderno parten de los conocimientos que se obtienen a lo largo del curso de comunicaciones, esto se debe a que se profundiza y se pone en practica lo aprendido en el curso teorio facilitando mas aun el analisis de diferentes sistemas de comunicacion.  
 
 Volver al [INICIO](#GNURADIO_LABCOMUIS_2025_1_B1B_G1)
