@@ -15,7 +15,7 @@ Universidad Industrial de Santander
 
 ### Fecha de entrega
 
-7 de Marzo de 2025
+24 de Mayo de 2025
 
 ## Declaración de Originalidad y Responsabilidad
 Los autores de este informe certifican que el contenido aquí presentado es original y ha sido elaborado de manera independiente. Se han utilizado fuentes externas únicamente como referencia y han sido debidamente citadas.
