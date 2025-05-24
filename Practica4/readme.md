@@ -20,26 +20,21 @@ Asimismo, los autores asumen plena responsabilidad por la información contenida
 
 ---
 # Palabras Clave 
-`GNURADIO` ,`Osciloscopio`,`Analazidor de espectros`, `Frecuencia`,
-`URRP 2920`.
+`Modulacion Angular ` ,`Banda Estrecha`,`Banda Ancha`, `Frecuencia`,
+`BESSEl`,`Modulacion PM`.
 
 # Resumen 
-Reconocer y entender los conceptos basicos del los sitemas de comunicacion asi como los parametros y equipos que se utilizan en esta, haciendo uso de los conocimientos adquiridos previamente en la clase teorica impartido por el profesor.  
-Se hace uso de equipos de laboratorio como el dispositivo de radio de URRP 2920 para amplificar señales, osciloscopio para medir amplitud y periodo, y por ultimo el analizador de espectro utilizado para medir la potencia de la señales.
+Se conectó una señal coseno como entrada y se observó en el dominio del tiempo y frecuencia. Para modulación angular de banda estrecha y banda ancha se analizaron dos casos en el osciloscopio: la señal se mantuvo parecida a una portadora con pequeña variación de fase. Se calculó la potencia de la envolvente compleja, y se notó que las características de la señal mensaje (como su frecuencia) se reflejan en esas pequeñas variaciones..
 
 # Objetivo General
 
-Familiarizarse con el uso de herramientas de software definido por radio (SDR) como GNU Radio, junto con equipos de medición como el USRP 2920, el osciloscopio R&S RTB2004 y el analizador de espectros R&S FPC1000. 
+Entender y comprender las modulaciones angulares de tanto tipo de banda estrecha como el tipo de banda ancha junto con el uso de GNU Radio. 
 
 # Introduccion
 
-Se pasaron desde implementaciones en GNURADio hasta el reconocimiento de los quipos y comprender su funcionamiento esto se hizo con el fin de evidenciar que le suceden a las señales en la comucnicaion de estas desde que pasa con un señal mak muestrada hasta que sucede cuando se sale del rango de fucnionamiento de los equipos.
-
-Pasando a otro apartado es demasiado importante la teoria de muestreo de las señales, a lo que se quiere llegar es que romper el limite de nyquist hace que la señal no se muetre como se debe generando posibles problemas en esta lo cual provocaron grandes errores a la hora de procesar la señal.
-
-El programa GNURADIO nos brinda de una manera de aprendizaje espectacular dotandonos de herramientas para la visualizacion de las señales asi como la pacapcidad para modificar la amplitud la frecuecia la frecuencia de muestro la amplitud la fase y demas parametros junto con la capacidad desde este programa para concetarse a el USRP 2920 para transimitir la señal tanto al osciloscopio como al analizador de espectros
-
-Como fin se busca poder analizar las señales, conocer los aparatos y sus limitaciones y que cosas suceden con las señales en el area de las comucnicaciones.
+Se genero un montaje en la aplicacion de GNU Radio para poder facilitar las respecttivas modificaciones para variar nuestra señal para asi poder comprender las Modulaciones tanto de banda estrecha como las de banda ancha sin embargi esto no quedo aqui si no que junto con el USRP mandamos
+las señales a nuestro Osicloscopio y Analizador de espectros para realizar un mejor analisis desde estos y comparar los de inmediato los datos 
+preacticos junto con los datos teoricos.
 
 # Procedimiento
 
