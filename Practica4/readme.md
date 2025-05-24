@@ -43,7 +43,7 @@ preacticos junto con los datos teoricos.
 Para este apartado lo que se debio de hacer fue algo sencillo ya que simplemente basto con descargar la base del archivo .grc ya dado para simplemente guardarlo y emepezar
 la practica lo que debemedo de visualizar en GNU fue lo siguiente
 
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/Evidencias/Captura%20desde%202025-03-06%2021-44-37.png">  
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica4/Images/Snapshot_2025-05-23_21-07-49.png">  
 
 ## Modulacion de Banda Estrecha
 
