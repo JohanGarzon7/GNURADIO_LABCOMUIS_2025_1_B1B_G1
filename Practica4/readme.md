@@ -45,34 +45,29 @@ la practica lo que debemedo de visualizar en GNU fue lo siguiente
 
 <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica4/Images/Snapshot_2025-05-23_21-07-49.png">  
 
-## Modulacion de Banda Estrecha
+## Modulacion de Banda Estrecha y Banda Ancha
 
-- Determine el comportamiento en el tiempo (osciloscopio) y calcule la potencia de la envolvente compleja a partir de las señales observadas. (sobre la medicion en el osciloscopio indique dichas características).
-  
--  ¿Cuáles características de la señal mensaje se pueden observar en el osciloscopio? (sobre la imagen tomada indique dichas características).
-  
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica4/Images/WhatsApp%20Image%202025-05-17%20at%208.17.41%20AM%20(6).jpeg">
-  
--  Determine el comportamiento de la señal modulada en el analizador de espectro para cada caso. Estime la potencia de la señal modulada.
+La señal mostrada en el osciloscopio bueno la señal mostrada en dicho aparato en una senañl modulada
+y en esta foto podemos obeservar una portadora ane alta frecuencia cuya amplitud varia en dicha imagen podemos visualizar una envolvente compleja y ahora podemos variar en alguno de los 2 casos posibles y es cuando nuestro kp*Am<0.1 o cuando nuestro kp*Am>5 dando nos asi dos señales distintas en nuestro oscilocopio y como ya mencionamos la señal se ve mas o menos como un seno de mejor manera por asi decirlo en cuanto sea mayor que 5 mientra que cuanto es menor a penas se ven los picos es como si mi 
+señal fuese un poco mas constante.
 
-## Modulacion de Banda Ancha
 
-- Determine el comportamiento en el tiempo y estime la potencia de la envolvente compleja a partir de las señales observadas en el osciloscopio.
-  
-- Determine el comportamiento de la señal modulada en el osciloscopio para cada caso. Determine la forma de onda de la señal modulada.
-  
-- Determine el ancho de banda de la señal modulada en el analizador de espectro para este caso.
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica4/Images/WhatsApp%20Image%202025-05-17%20at%208.17.41%20AM%20(6).jpegg">
+
+Y en caunto al analizador de espectro segun las modulacion de los 2 tipos posible que se realizansen salio distintos tipos de picos en nuestro analizador y para hallar el ancho de banda utilizamos nuestro nivel de referecnia que se igual a 20dbm 
+
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica4/Images/WhatsApp%20Image%202025-05-17%20at%208.17.40%20AM%20(1).jpeg">
   
 ## Calcule los coeficientes de Bessel
 
-## Analisis de resultados
+Y para este ultimo apartado de la practica solo se tomo los valores de potencia de cada uno de los picos visto en nuestro analizador de espectro para asi poder llenar nuestra tabla de beesel y hallar 
+dichos coeficientes directamnete en esta practica se pudo ver cuanto deberia de ser el valor teorico
+como el valor real obtenido de la tabla el cual calcula en base a la potencia de cada uno de los picos
 
 # Conclusiones:
 ## 1.)
-Se logró obtener un mejor manejo y uso de los equipos de laboratorio adaptandoce a los nuevos equipos con mucha mas facilidad a lo largo de las practicas que se requerian en cada una de las diferentes actividades.
+El cálculo del índice de modulación indica que la variación de amplitud es considerable, lo que resulta en una señal modulada fácilmente discernible visualmente y con una distribución de potencia notable entre la portadora y las bandas laterales.
 ## 2.)
-A lo largo de la práctica, se observaron diversos fenómenos estudiados previamente en el curso teórico, lo que facilitó su comprensión y permitió identificar factores que influyen en la transmisión de señales de información. Además, mediante el uso del programa GNU Radio, se generaron distintos tipos de señales, ajustando diversos parámetros para modificar sus características.
-## 3.)
-El uso de las comunicaciones en el mundo moderno parten de los conocimientos que se obtienen a lo largo del curso de comunicaciones, esto se debe a que se profundiza y se pone en practica lo aprendido en el curso teorio facilitando mas aun el analisis de diferentes sistemas de comunicacion.  
+Se pueden extraer parámetros clave de la señal mensaje directamente del osciloscopio: A pesar de ser una señal modulada compleja, el osciloscopio permite determinar características esenciales de la señal moduladora.
 
 Volver al [INICIO](#GNURADIO_LABCOMUIS_2025_1_B1B_G1)
