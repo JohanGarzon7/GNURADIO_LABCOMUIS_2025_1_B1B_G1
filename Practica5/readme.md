@@ -29,53 +29,61 @@ Asimismo, los autores asumen plena responsabilidad por la información contenida
 `URRP 2920`.
 
 # Resumen 
-Reconocer y entender los conceptos basicos del los sitemas de comunicacion asi como los parametros y equipos que se utilizan en esta, haciendo uso de los conocimientos adquiridos previamente en la clase teorica impartido por el profesor.  
-Se hace uso de equipos de laboratorio como el dispositivo de radio de URRP 2920 para amplificar señales, osciloscopio para medir amplitud y periodo, y por ultimo el analizador de espectro utilizado para medir la potencia de la señales.
+Se realizó el análisis de la modulación PAM (Pulse Amplitude Modulation) por muestreo natural en los dominios del tiempo y la frecuencia, utilizando diferentes formas de onda como señales moduladoras. Se ajustaron parámetros clave como la frecuencia de pulsos, frecuencia del mensaje, ancho de pulso y amplitud. Se observaron variaciones en la forma y el espectro de las señales moduladas al modificar dichos parámetros.
+
+Cada señal ocupa un intervalo específico, evitando el solapamiento entre canales y asegurando la integridad de la información al multiplexar. Al incorporar un quinto canal, se recalcularon los retardos para mantener una separación del 20% entre señales (D1 = 0, D2 = 20, ..., D5 = 80), logrando una multiplexación eficiente sin interferencias.
+
+Este estudio confirma la importancia de una adecuada relación entre la frecuencia de muestreo y la señal del mensaje (recomendada como 100:1) para garantizar una representación precisa de la señal original y una transmisión eficiente.
 
 # Objetivo General
 
-Familiarizarse con el uso de herramientas de software definido por radio (SDR) como GNU Radio, junto con equipos de medición como el USRP 2920, el osciloscopio R&S RTB2004 y el analizador de espectros R&S FPC1000. 
+Analizar el proceso de modulación PAM por muestreo natural, evaluando el comportamiento de las señales moduladas en el dominio del tiempo y la frecuencia, y comprendiendo la influencia de parámetros como la frecuencia de muestreo, ancho de pulso y amplitud, con el fin de garantizar una multiplexación eficiente sin pérdida de información.
 
 # Introduccion
 
-Se pasaron desde implementaciones en GNURADio hasta el reconocimiento de los quipos y comprender su funcionamiento esto se hizo con el fin de evidenciar que le suceden a las señales en la comucnicaion de estas desde que pasa con un señal mak muestrada hasta que sucede cuando se sale del rango de fucnionamiento de los equipos.
-
-Pasando a otro apartado es demasiado importante la teoria de muestreo de las señales, a lo que se quiere llegar es que romper el limite de nyquist hace que la señal no se muetre como se debe generando posibles problemas en esta lo cual provocaron grandes errores a la hora de procesar la señal.
-
-El programa GNURADIO nos brinda de una manera de aprendizaje espectacular dotandonos de herramientas para la visualizacion de las señales asi como la pacapcidad para modificar la amplitud la frecuecia la frecuencia de muestro la amplitud la fase y demas parametros junto con la capacidad desde este programa para concetarse a el USRP 2920 para transimitir la señal tanto al osciloscopio como al analizador de espectros
-
-Como fin se busca poder analizar las señales, conocer los aparatos y sus limitaciones y que cosas suceden con las señales en el area de las comucnicaciones.
+La modulación por amplitud de pulsos (PAM) es una técnica fundamental en la transmisión digital de señales analógicas, como voz y video. En este informe se analiza el muestreo natural aplicado a diferentes formas de onda, evaluando cómo parámetros como la frecuencia de muestreo, el ancho de pulso y la separación entre canales afectan la representación y transmisión de la señal original. El estudio incluye tanto el análisis en el dominio del tiempo como en el de la frecuencia, asegurando una correcta multiplexación sin interferencia entre señales.
 
 # Procedimiento
 
-## Reconocimiento de los equipos:
+## PARTE A:  
 
-Para este paso la idea fue buscar los datasheets de los distintos aparatos asi como el rango de funcionamiento de estos por ejemplo saber cual es el rango de frecuencia el que pueden utilizar esto para no sobrepasar dichos limites y hacer mediciones incorrectaas, por ellos una vez analizados los parametros se saco esta lista el cual resume los datos hallados: 
+Para analizar la modulación por amplitud de pulsos (PAM) mediante muestreo natural, se siguió un procedimiento estructurado en etapas, utilizando la herramienta GNU Radio para la generación, visualización y análisis de las señales.  
 
-### USRP-2920 
-- Ancho de Banda: 20MHz 
-- Rango de frecuencia: 50MHz a 2.2GHz 
-- Paso de frecuencia: <1KHz 
-- Rango de ganacia: 0 dB a 31 dB 
-- Potenca tipica. 12W a 15W
-### Analizador de Espectros R&S FPC1000 
-- Numero de canales: 1 
-- Ancho de banda: 1Hz 
-- Impedancia de entrada: 50 ohm 
-- Maximo samp_rate: 2.5Gsamples/s 
-- Resolucion de frecuencia: 1 Hz
-### Osciloscopio R&S RTB2004
-- Impedancia de entreda: 1M ohm .
-- Numero de canales: 4 
-- Resolucion: 14 bit 
-- Rango de frecuencia: 5Khz a 1Ghz 
-- Canales digitales
 
-Otros cosas relevantes son las configuraciones que se les deben a hacer a dichos aparatos, para configurar el osciloscopio para medir la amplitud y la frecuencia de una señal a este se le configura la escala de division osea los volts por divicion ademas del la posicion horizontal tambien es importante para un buena medicion, se puede agregar de igual manera cualquier medida que se necesite de la señal el periodo la frecuencia etc..
+### Diseño del sistema en GNU Radio  
 
-Entre medir una señal en el dominio del tiempo y en el dominio de la frecuecnia ay ciertas diferencias entre ellas que con el osciloscopio en el dominio de tiempo se puede calcular la amplitud de la señal y en el analizador de espectros la potencia y ancho de banda.  
+Se creó un bloque jerárquico denominado MODULADOR DE PULSOS, que permitió estructurar el sistema de muestreo y modulación. Este bloque integró una señal moduladora analógica (por ejemplo, una onda seno) y una portadora digital (trenes de pulsos).  
 
-Se mide con el analizador de espectros mas especificamente con el RBW aumentar o disminuir el span requiere de mas o menos costo computacional ya que puede llegra a ser medida la señal de una manera mas precisa.
+
+### Configuración de señales  
+
+Se configuraron diferentes tipos de señales moduladoras (senoidal, triangular, diente de sierra) y se ajustaron parámetros como:  
+
+
+-Frecuencia de muestreo  
+
+-Ancho de los pulsos  
+
+-Duración de la señal  
+
+### Visualización en el dominio del tiempo y frecuencia  
+
+Se observaron los efectos del muestreo natural sobre las formas de onda utilizando bloques de visualización en GNU Radio:  
+
+-Diagramas temporales que mostraban cómo se ve la señal después del muestreo.  
+
+-Espectros de frecuencia para identificar los componentes espectrales de la señal PAM.  
+
+
+###Multiplexación de señales  
+
+Se aplicó multiplexación por división de tiempo (TDM), asignando intervalos separados a cada canal. Se realizó el experimento con cuatro señales inicialmente, observando que no se producía solapamiento gracias a la separación de los intervalos.  
+
+Posteriormente, se agregó un quinto canal, ajustando la separación al 20% para garantizar la no interferencia, como se muestra en los diagramas generados.  
+
+
+### Análisis de resultados
+Se comprobó que, con una correcta elección de los intervalos y del ancho de los pulsos, las señales pueden multiplexarse sin pérdida de información ni solapamiento. Esto se evidenció en los diagramas de muestreo y en la ausencia de interferencias entre señales.
 
 ## Simulacion de Señales en GNU Radio
 
