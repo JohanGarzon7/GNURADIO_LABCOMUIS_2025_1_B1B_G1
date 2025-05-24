@@ -85,7 +85,7 @@ Posteriormente, se agregó un quinto canal, ajustando la separación al 20% para
 Para el analisis de las señales moduladas, vamos a dar inicion a la primera señal la cual es una señal triangular:  
 
 <p align="center">
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/TRIANGULAR.png">
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/TRIANGULAR%2019-53-36.png">
 </p>
 ### Análisis de resultados
 Se comprobó que, con una correcta elección de los intervalos y del ancho de los pulsos, las señales pueden multiplexarse sin pérdida de información ni solapamiento. Esto se evidenció en los diagramas de muestreo y en la ausencia de interferencias entre señales.
