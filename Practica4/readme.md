@@ -51,6 +51,8 @@ la practica lo que debemedo de visualizar en GNU fue lo siguiente
   
 -  ¿Cuáles características de la señal mensaje se pueden observar en el osciloscopio? (sobre la imagen tomada indique dichas características).
   
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica4/Images/WhatsApp%20Image%202025-05-17%20at%208.17.41%20AM%20(6).jpeg">
+  
 -  Determine el comportamiento de la señal modulada en el analizador de espectro para cada caso. Estime la potencia de la señal modulada.
 
 ## Modulacion de Banda Ancha
