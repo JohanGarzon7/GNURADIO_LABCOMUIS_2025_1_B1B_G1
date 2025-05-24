@@ -92,9 +92,17 @@ Se genera un tren de pulsos con una frecuencia de 1000 Hz y una señal de mensaj
 
 Seguido de esto damos paso a visualizar la siguiente señal la cual es una señal sinosuidal:  
 
+Se redujo la frecuencia del mensaje a 10 Hz y se incrementa el ancho del pulso a 10 ms. La señal modulada presenta una forma envolvente suave y continua, más similar a la señal analógica original. El aumento del ancho de pulso incrementa la duración de cada muestra, lo que afecta la reconstrucción de la señal.  
+
 <p align="center">
   <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/sen.png?raw=true" width="400">
 </p>  
+Ahora con una señal Diente de sierra:  
+
+En este caso, se eleva la frecuencia del mensaje a 80 Hz con un ancho de pulso de 20 ms. La forma de la señal modulada tiende a parecerse a una señal de rampa, modulada por pulsos de mayor duración. Esto implica una menor resolución temporal, pero permite ver con claridad el seguimiento de la señal original.  
+<p align="center">
+  <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/Cierra.png?raw=true" width="400">
+</p> 
 ### Análisis de resultados
 Se comprobó que, con una correcta elección de los intervalos y del ancho de los pulsos, las señales pueden multiplexarse sin pérdida de información ni solapamiento. Esto se evidenció en los diagramas de muestreo y en la ausencia de interferencias entre señales.
 
