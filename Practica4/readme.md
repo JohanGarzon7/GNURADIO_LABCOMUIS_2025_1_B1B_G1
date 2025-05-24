@@ -15,7 +15,7 @@ Universidad Industrial de Santander
 ## Declaración de Originalidad y Responsabilidad
 Los autores de este informe certifican que el contenido aquí presentado es original y ha sido elaborado de manera independiente. Se han utilizado fuentes externas únicamente como referencia y han sido debidamente citadas.
 
-Asimismo, los autores asumen plena responsabilidad por la información contenida en este documento. 
+Asi mismo, los autores asumen plena responsabilidad por la información contenida en este documento. 
 ---
 
 ---
