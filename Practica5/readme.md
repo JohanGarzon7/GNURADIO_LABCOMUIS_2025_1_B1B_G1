@@ -81,7 +81,7 @@ Se aplicó multiplexación por división de tiempo (TDM), asignando intervalos s
 
 Posteriormente, se agregó un quinto canal, ajustando la separación al 20% para garantizar la no interferencia, como se muestra en los diagramas generados.  
 
-### Imagenes de analisis  
+### Primer punto
 Para el analisis de las señales moduladas, vamos a dar inicio a la primera señal la cual es una señal triangular:  
 
 Se genera un tren de pulsos con una frecuencia de 1000 Hz y una señal de mensaje de 50 Hz con un ancho de pulso de 4 ms. La señal resultante presenta pulsos con amplitud que varía en forma triangular, esta forma de muestreo permite observar claramente cómo la amplitud de cada pulso corresponde a un valor instantáneo de la señal original.  
@@ -105,11 +105,12 @@ En este caso, se eleva la frecuencia del mensaje a 80 Hz con un ancho de pulso d
 </p> 
 
 
-### Analisis de resultados primer punto  
+#### Analisis de resultados
 
 Se comprobó que, con una correcta elección de los intervalos y del ancho de los pulsos, las señales pueden multiplexarse sin pérdida de información ni solapamiento. Esto se evidenció en los diagramas de muestreo y en la ausencia de interferencias entre señales.
 
 ### Segundo punto  
+
 Para el desarrollo de este punto partimos ddel concepto de multiplezacion de diferentes señales, el cual se debe realizar primero la modificacion de la frecuencia del mensaje y la frecuencia de pulsos, esto con el fin de generar un espacio en el cual nuestras señales en este caso cuatro con unretardo de una respecto a la otra.  
 A continuacion se presenta un ejemplo con las cuatro señales multiplexadas:  
 <p align="center">
@@ -121,7 +122,7 @@ Agregando una nueva señal, en este caso una señal de audio, como ya sabemos es
   <img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/multiplezacionx2.png?raw=true" width="400">
 </p>  
 
-### Analisis de resultados 2do punto
+#### Analisis de resultados  
 Cada señal ocupa su propio intervalo previamente definido, y se puede observar que no hay superposición entre ellas. Esto garantiza que, al multiplexarlas, no haya pérdida de información en ninguna de las señales.
 En el segundo punto se solicita añadir un nuevo canal, lo cual modifica la fórmula utilizada para calcular los intervalos. En lugar de 4 canales, ahora se consideran 5, lo que implica que la separación entre los intervalos de cada señal es del 20%. Como se muestra en la imagen, los retardos quedan distribuidos como: D1 = 0, D2 = 20, D3 = 40, D4 = 60 y D5 = 80. Esta separación asegura que no haya superposición entre señales.  
 
