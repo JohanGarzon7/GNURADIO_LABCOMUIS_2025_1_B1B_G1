@@ -1,5 +1,7 @@
 ## Procedimneto
 
+# Parte B_1
+
 ### 1. Niveles de Cuantización y Resolución
 
 Cuanto mayor sean los niveles de cuantización, mejor es la resolución de la señal cuantizada.
