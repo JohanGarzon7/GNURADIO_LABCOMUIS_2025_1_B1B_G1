@@ -4,7 +4,11 @@
 
 - Niveles de Cuantización y Resolución: Cuanto mayor sean los niveles de cuantización, mejor es la resolución de la señal cuantizada.
 
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica5/Images/Snapshot_2025-05-23_23-55-02.png">
+
 - Ruido de Cuantización y Filtros Pasa Bajo (LPF): El ruido al estar presente durante la cuantización, este genera que la señal luego de la cuantización presente algunas anomalías en su comportamiento, este ruido se puede minimizar aplicando un LPF.
+
+<img src="">
 
 - Frecuencia de Muestreo y Cuantización: Lo ideal es que sea ligeramente mayor que la frecuencia máxima de la señal original antes de cuantización así se preserva la forma de onda original y se minimiza el ruido introducido por la cuantización.
 
