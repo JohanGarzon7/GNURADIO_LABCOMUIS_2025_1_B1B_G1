@@ -43,7 +43,7 @@ preacticos junto con los datos teoricos.
 Para este apartado lo que se debio de hacer fue algo sencillo ya que simplemente basto con descargar la base del archivo .grc ya dado para simplemente guardarlo y emepezar
 la practica lo que debemedo de visualizar en GNU fue lo siguiente
 
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica4/Images/Snapshot_2025-05-23_21-07-49.png"><
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica4/Images/Snapshot_2025-05-23_21-07-49.png">
 
 ## Modulacion de Banda Estrecha y Banda Ancha
 
@@ -51,8 +51,7 @@ La señal mostrada en el osciloscopio bueno la señal mostrada en dicho aparato 
 y en esta foto podemos obeservar una portadora ane alta frecuencia cuya amplitud varia en dicha imagen podemos visualizar una envolvente compleja y ahora podemos variar en alguno de los 2 casos posibles y es cuando nuestro kp*Am<0.1 o cuando nuestro kp*Am>5 dando nos asi dos señales distintas en nuestro oscilocopio y como ya mencionamos la señal se ve mas o menos como un seno de mejor manera por asi decirlo en cuanto sea mayor que 5 mientra que cuanto es menor a penas se ven los picos es como si mi 
 señal fuese un poco mas constante.
 
-
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica4/Images/WhatsApp%20Image%202025-05-17%20at%208.17.41%20AM%20(6).jpegg">
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica4/Images/WhatsApp%20Image%202025-05-17%20at%208.17.41%20AM%20(6).jpeg">
 
 Y en caunto al analizador de espectro segun las modulacion de los 2 tipos posible que se realizansen salio distintos tipos de picos en nuestro analizador y para hallar el ancho de banda utilizamos nuestro nivel de referecnia que se igual a 20dbm 
 
