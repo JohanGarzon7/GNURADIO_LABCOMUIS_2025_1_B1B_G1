@@ -87,20 +87,13 @@ Se comprobó que, con una correcta elección de los intervalos y del ancho de lo
 
 ## Simulacion de Señales en GNU Radio
 
-En este aparto veremos como se comportavan la señales con diferentes tipos de forma de onda y como varian en tiempo y en frecuencia.  
+En este aparto veremos como se modelaron las diferentes señales y como se muestrean dependiendiendo el tipo de modulacion que estamos trabajando:  
+
 
 Para simular esto utilizamos el siguiente flujograma de GNURADIO [`simple_flowgraph.grc`](https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/simple_flowgraph.grc).  
 Eh identificamos los bloques necesarios para el funcionamiento de nuestro programa:  
 
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/Evidencias/WhatsApp%20Image%202025-03-06%20at%209.39.11%20PM.jpeg">  
-Una vez teniendo en cuenta cuales son nuetros bloques principales ejecutaremos nuestro flujograma para que nos quede algo asi:  
 
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/Evidencias/Captura%20desde%202025-03-06%2021-44-37.png">  
-Ahora pasaremos ah analizar las señales para ello modificaremos el tipo de onda la forma de esta la frecuencia y faase de la señal.  
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica1/Practica1C/Evidencias/Captura%20desde%202025-02-25%2015-58-10.png">  
-Nos quedara algo similar a lo anterior si se desea ver mas imagenes con variaciones con distintos parametro debe acceder a lo siguiente
-
-[Ir a las evidencias](/Practica1/Practica1C/Evidencias)
 
 Ahora con esto podemos analizar y reponder cual es la diferencia entre una una fuente de tipo flotante y una de tipo complejo y esa es s que se genera una señal sinosoidal real mientras que en el tipo complejo se genera una señal real e imaginaria una desfada 90 grados de la otrra en banda base lo cual vendria siendo una señal exponecial compleja.
 
