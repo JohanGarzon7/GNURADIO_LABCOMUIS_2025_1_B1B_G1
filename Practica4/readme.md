@@ -56,8 +56,8 @@ señal fuese un poco mas constante.
 
 Y en caunto al analizador de espectro segun las modulacion de los 2 tipos posible que se realizansen salio distintos tipos de picos en nuestro analizador y para hallar el ancho de banda utilizamos nuestro nivel de referecnia que se igual a 20dbm 
 
-<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica4/Images/WhatsApp%20Image%202025-05-17%20at%208.17.40%20AM%20(1).jpeg">
-  
+<img src="https://github.com/JohanGarzon7/GNURADIO_LABCOMUIS_2025_1_B1B_G1/blob/main/Practica4/Images/WhatsApp%20Image%202025-05-17%20at%208.17.41%20AM%20(1).jpeg">
+
 ## Calcule los coeficientes de Bessel
 
 Y para este ultimo apartado de la practica solo se tomo los valores de potencia de cada uno de los picos visto en nuestro analizador de espectro para asi poder llenar nuestra tabla de beesel y hallar 
