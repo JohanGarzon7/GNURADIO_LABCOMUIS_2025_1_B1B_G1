@@ -23,3 +23,22 @@ El ruido Gaussiano como tal no afecta el desempeño del cuantizador ya que este 
 La desventaja del uso de un modelo de cuantizador no uniforme es que este puede aumentar la amplitud del ruido que posee baja amplitud, la principal ventaja es que este modelo de cuentizador no uniforme, puede tener una mejor resolucion frente a modelo Uniforme.
 
 # Parte B_2
+
+- Aumenta o disminuye el ruido de la señal filtrada segun sea su valor determinado.
+
+-  La posibilidad de obtener una mejor resolucion en la señal cantificada.
+
+-  En un cuantizador no uniforme como el mostrado, el ancho de banda del canal afecta directamente la calidad de la señal cuantizada. Si el canal tiene un ancho de banda amplio, permite que pasen tanto las componentes útiles de la señal como el ruido de cuantización, lo que puede degradar la relación señal-ruido (SNR). En cambio, un ancho de banda moderado actúa como un filtro que atenúa las componentes de alta frecuencia introducidas por la cuantización, mejorando la calidad al reducir el ruido sin distorsionar significativamente la señal.
+
+-  Tiene un impacto significativo en la calidad de la señal cuantificada y en la percepcion de ruido, aunque la ley A reduce el error de cuantización en señales de baja amplitud, el ruido gaussiano puede sumarse a la señal antes de la compresión.
+
+-  Para optimizar la cuantización Ley A y mejorar la relación señal-ruido (SNR), se deben tener algunos aspectos en cuenta, tales como: El valor de la constante A,  el filtrado de la señal (LPF) y aumentar el numero de bits.
+
+-  . Amplitudes= 70.8mV
+- . Delta de amplitud=5..273 mV
+- . Delta de tiempos= 8.7ms
+
+- ..Ancho de banda= 62kHz
+- ..Delta de frecuencia= 2.411 kHz
+- ..Potencia = -25dB
+
